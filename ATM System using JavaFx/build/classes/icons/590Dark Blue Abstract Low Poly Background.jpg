@@ -1,0 +1,819 @@
+Y_TYPE features
+[ 2876 2328][30 Oct 13:28:13][TR_FEATURE_MANAGER] TrFeatureManager::Init: mOfficeModeEnable=true,mSplitDnsEnable=false,mLocationAwarenessEnable=true,mAlwaysConnectEnable=true,mRoamingEnable=true,mHotspotDetectionEnable=true,mFirewallEnable=true,mScvEnable=true
+[ 2876 2328][30 Oct 13:28:13][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: entering...
+[ 2876 2328][30 Oct 13:28:13][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: loading library: C:\Windows\system32\FirewallMonitor.dll
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_initLibrary returned true
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: firewall monitor initialized successfully
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_SetFtpStatus(true) returned true
+[ 2876 2328][30 Oct 13:28:16][messaging] messaging::setup: created a new TCP multi-pipe
+[ 2876 2328][30 Oct 13:28:16][TR_AUTH_MANAGER] TrAuthCache::TrAuthCache: Ctor
+[ 2876 2328][30 Oct 13:28:16][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:16][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:16][TR_EVENTS] TR_EVENTS::Register: Added cb 440370 to event 28e9b60
+[ 2876 2328][30 Oct 13:28:16][TR_SRV2CL] TR_SRV2CL::RegisterSupplyCredsCB: Registering supply credentials callback
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [LogonStatusProvider::Init] __start__
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [LogonStatusProvider::Init] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:16][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::TrClSettingManager: called
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43cf2d for message 4001
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d1e5 for message 4002
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43e266 for message 4003
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d327 for message 5001
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43db15 for message 1011
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d466 for message 1012
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 451b85 for message 1000
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 452fc2 for message 1001
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 453e98 for message 1002
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 453ec6 for message 1009
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 454342 for message 1003
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 45fb8e for message 1005
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 460455 for message 1006
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4584e2 for message 1007
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4609b8 for message 1008
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4539c9 for message 1010
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 454507 for message 1004
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 452f13 for message 1013
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4529bd for message 1014
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 439912 for message 0
+[ 2876 2328][30 Oct 13:28:16][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 439988 for message 1
+[ 2876 2328][30 Oct 13:28:16][TrComInf] TrComInf::TrComInfInit: __start__ 13:28:16.900
+[ 2876 2328][30 Oct 13:28:16][messaging] messaging::add_msg: added a new cb: msg - 1
+[ 2876 2328][30 Oct 13:28:16][messaging] messaging::add_msg: added a new cb: msg - 2
+[ 2876 2328][30 Oct 13:28:16][tcpserver] TcpMultiPipe::socket_init: Created m_serverfd: 0x290 socket
+[ 2876 2328][30 Oct 13:28:16][tcpserver] TcpMultiPipe::socket_init: setsockopt - ok!
+[ 2876 2328][30 Oct 13:28:16][tcpserver] TcpMultiPipe::socket_init: m_serverfd: 0x290 socket bound and listening
+[ 2876 2328][30 Oct 13:28:16][tcpserver] TcpMultiPipe::socket_init: port is 7778
+[ 2876 2328][30 Oct 13:28:16][tcpserver] TcpMultiPipe::pipe_if_server_init: Successfully initialized SOCKET on port 7778
+[ 2876 2328][30 Oct 13:28:16][messaging] messaging::init: Successfully initialized pipe
+[ 2876 2328][30 Oct 13:28:16][TrComInf] TrComInf::TrComInfInit: __end__ 13:28:16.916. Total time - 16 milliseconds
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::Create: entering...
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::ShouldFirewallFeatureBeActive: entering...
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [TrUtils_isSCUIAPIMode] __start__
+[ 2876 2328][30 Oct 13:28:16][TR_UTILS] [ERROR] [TrUtils_isSCUIAPIMode]  failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [TrUtils_isSCUIAPIMode] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [TrUtils_isSAexist] __start__
+[ 2876 2328][30 Oct 13:28:16][TR_UTILS] [ERROR] [TrUtils_isSAexist] failed opening registry key - SA does not exist
+[ 2876 2328][30 Oct 13:28:16][TR_UTILS] [COVERAGE] [TrUtils_isSAexist] bSAexist is:0
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [TrUtils_isSAexist] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::ShouldFirewallFeatureBeActive: firewall may be in active mode (both SCUIAPIMode and SA mode are disabled) -> activate it
+[ 2876 2328][30 Oct 13:28:16][DESKTOP] DESKTOP::CDesktopPolicyConvertor::Ctor: entering...
+[ 2876 2328][30 Oct 13:28:16][DESKTOP] CDesktopPolicyConvertor::Ctor: this = 61472496, num icmp protocol types=16, m_AllIcmpProtocols.size=16
+[ 2876 2328][30 Oct 13:28:16][DESKTOP] CDesktopPolicyConvertor::Ctor: num ip protocol types=138
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] CFirewallWrapper::Ctor: entering...
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] TrFW_IsWow64: entering...
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] IsVistaOrAbove: vista detected
+[ 2876 2328][30 Oct 13:28:16][SCV3RD_PARTY] SCV3RD_PARTY::Scv3rdPartyImpl: entering...
+[ 2876 2328][30 Oct 13:28:16][TR_FIREWALL] UploadLogsComponent::Inst: create UploadLogsComponent instance
+[ 2876 2328][30 Oct 13:28:16][rais] [INFO] [LogDistributer::Instance(s)] create log distributer
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [LogDistributer::LogDistributer] __start__
+[ 2876 2328][30 Oct 13:28:16][rais] [COVERAGE] [LogDistributer::LogDistributer] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:16][TR_OVERSITE] SCVPlugins registry exist - going to enforce SCV
+[ 2876 2328][30 Oct 13:28:16][TR_OVERSITE] Configuration Manager was created successfully
+[ 2876 2328][30 Oct 13:28:16][ConfData] ConfData::Initialize data
+[ 2876 2328][30 Oct 13:28:16][ConfData] Initialize data : Plugins path in registry: SOFTWARE\CheckPoint\TRAC\Plugins
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] ConfData::Append_PI_Info_List - inside...
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [scvproxy] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfData] Initialize data : Plugins path in registry: SOFTWARE\CheckPoint\TRAC\Plugins
+[ 2876 2328][30 Oct 13:28:16][ConfData] Initialize data : SCV Plugins path in registry: SOFTWARE\CheckPoint\TRAC\SCV\Plugins
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] ConfData::Append_PI_Info_List - inside...
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [AntiVirusMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [BrowserMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [groupmonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [HotFixMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [HWMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [OsMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [ProcessMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [RegMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [ScriptRun] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [SCVMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Reading registry [WindowsSecurityMonitor] Plugin
+[ 2876 2328][30 Oct 13:28:16][ConfDataPIInf] Plugin version [1.0]
+[ 2876 2328][30 Oct 13:28:16][TR_OVERSITE] Configuration Data was initialized successfully
+[ 2876 2328][30 Oct 13:28:16][WatchPoint Fwcsssys PluginMan] FwcssSys::Create
+[ 2876 2328][30 Oct 13:28:16][TR_OVERSITE] FwcssSys was created successfully
+[ 2876 2328][30 Oct 13:28:16][TR_OVERSITE] Going to start FwcssSys
+[ 2876 2976][30 Oct 13:28:16][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart Inside
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] FwcssSys::InternalStart - ISystem was created successfully
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] FwcssSys::InternalStart - ISystem was publisheded successfully
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] FwcssSys::InternalStart - ILdMan was created successfully
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] FwcssSys::InternalStart - Plugin Manager was created successfully
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] FwcssSys::InternalStart - PluginMan published successfully
+[ 2876 2976][30 Oct 13:28:16][Fwcsssys] ScvPluginMan created succesfully
+[ 2876 2976][30 Oct 13:28:16][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart - SCV PluginMan was published successfully
+[ 2876 2976][30 Oct 13:28:16][LdManInit] LdMan::Init - inside
+[ 2876 2976][30 Oct 13:28:16][LdManInit] Array of plugins info has 12 entries
+[ 2876 2976][30 Oct 13:28:16][LdManInit] CONFID_PRIV_CP_SCV_DLL is AntiVirusMonitor;BrowserMonitor;groupmonitor;HotFixMonitor;HWMonitor;OsMonitor;ProcessMonitor;RegMonitor;ScriptRun;SCVMonitor;WindowsSecurityMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[0] = AntiVirusMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[1] = BrowserMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[2] = groupmonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[3] = HotFixMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[4] = HWMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[5] = OsMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[6] = ProcessMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[7] = RegMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[8] = ScriptRun
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[9] = SCVMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] ChkPointDllNamesArr[10] = WindowsSecurityMonitor
+[ 2876 2976][30 Oct 13:28:16][LdManInit] plugin WindowsSecurityMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:19][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:19][LdManInit] plugin SCVMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:22][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:22][LdManInit] plugin ScriptRun is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:23][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:23][LdManInit] plugin RegMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:23][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:23][LdManInit] plugin ProcessMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:23][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:23][LdManInit] plugin OsMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:24][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:24][LdManInit] plugin HWMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:24][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:24][LdManInit] plugin HotFixMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:25][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:25][LdManInit] plugin groupmonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:25][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:25][LdManInit] plugin BrowserMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:26][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:26][LdManInit] plugin AntiVirusMonitor is CP plugin, checking signature...
+[ 2876 2976][30 Oct 13:28:26][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2876 2976][30 Oct 13:28:26][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:26][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibLoad(WindowsSecurityMonitor.dll): actual_name=WindowsSecurityMonitor.dll, address=00A50000.
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibGetProc: libptr: 00A50000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Library WindowsSecurityMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibGetProc: libptr: 00A50000 procname: SetISystem address=00A56D1A
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll, address=03050000.
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibGetProc: libptr: 03050000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Library SCVMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:31][soload] SharedLibGetProc: libptr: 03050000 procname: SetISystem address=0305366E
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:31][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll, address=03200000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03200000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library ScriptRun - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03200000 procname: SetISystem address=03203824
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll, address=033A0000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033A0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library RegMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033A0000 procname: SetISystem address=033A34AB
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll, address=033C0000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033C0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library ProcessMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033C0000 procname: SetISystem address=033C3475
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll, address=033E0000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033E0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library OsMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 033E0000 procname: SetISystem address=033E4B20
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll, address=03400000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03400000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library HWMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03400000 procname: SetISystem address=03403479
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll, address=03420000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03420000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library HotFixMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03420000 procname: SetISystem address=034238C8
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll, address=03440000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03440000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library groupmonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 03440000 procname: SetISystem address=0344316D
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll, address=047B0000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 047B0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library BrowserMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 047B0000 procname: SetISystem address=047B40DD
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll, address=047D0000.
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 047D0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Library AntiVirusMonitor - [OK]
+[ 2876 2976][30 Oct 13:28:32][soload] SharedLibGetProc: libptr: 047D0000 procname: SetISystem address=047D419D
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Loading Library in Load mode
+[ 2876 2976][30 Oct 13:28:32][LdManInit] Lib::Load - Inside...
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll, address=047F0000.
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 047F0000 procname: GetAddress address=00000000
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Library scvproxy - [OK]
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 047F0000 procname: SetISystem address=047F1B9A
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 00A50000 procname: ConInit address=00A5633B
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library WindowsSecurityMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: WindowsSecurityMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 03050000 procname: ConInit address=030530FB
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library SCVMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: SCVMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 03200000 procname: ConInit address=03202D4F
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library ScriptRun
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: ScriptRun to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 033A0000 procname: ConInit address=033A2F38
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library RegMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: RegMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 033C0000 procname: ConInit address=033C2F02
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library ProcessMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: ProcessMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 033E0000 procname: ConInit address=033E404B
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library OsMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: OsMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 03400000 procname: ConInit address=034029A4
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library HWMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: HWMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 03420000 procname: ConInit address=03422DF3
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library HotFixMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: HotFixMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 03440000 procname: ConInit address=0344275E
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library groupmonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: groupmonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 047B0000 procname: ConInit address=047B3608
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library BrowserMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: BrowserMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 047D0000 procname: ConInit address=047D36C8
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library AntiVirusMonitor
+[ 2876 2976][30 Oct 13:28:36][PiLib] success initializing scvstub dll
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: AntiVirusMonitor to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][soload] SharedLibGetProc: libptr: 047F0000 procname: ConInit address=047F1631
+[ 2876 2976][30 Oct 13:28:36][LdManInit] Initializing container for library scvproxy
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PmRegisterPI - Going to insert plugin: scvproxy to name_to_version MAP
+[ 2876 2976][30 Oct 13:28:36][LdManInit] free szChkPointDllNames
+[ 2876 2976][30 Oct 13:28:36][Fwcsssys] FwcssSys::InternalStart - Loader was init succesfully 
+[ 2876 2976][30 Oct 13:28:36][Fwcsssys] FwcssSys::InternalStart - Loader was published succesfully 
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PluginMan::Start - inside
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PluginMan::LoadPlugins - inside
+[ 2876 2976][30 Oct 13:28:36][PluginMan] 	scvproxy - 65536
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::PiExportFunc - Inside
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PluginInit - inside
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::PiInit - Inside
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::PiInit -PisInit - returning error code 0
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PluginMan::LoadPlugins - Total loaded 1 plugins
+[ 2876 2976][30 Oct 13:28:36][PluginMan] Starting: scvproxy
+[ 2876 2976][30 Oct 13:28:36][PluginMan] Check if all dependents are active:
+[ 2876 2976][30 Oct 13:28:36][PluginMan] Active dependents - [OK]
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::PiStart - Inside
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2876 2976][30 Oct 13:28:36][Plugin] Plugin::PiStart - returning error code 0
+[ 2876 2976][30 Oct 13:28:36][PluginMan] PluginMan::PluginStart - returning error from PiStart is: 0
+[ 2876 2976][30 Oct 13:28:36][PluginMan] ---> scvproxy [OK]
+[ 2876 2976][30 Oct 13:28:36][Fwcsssys] FwcssSys::InternalStart - PluginManager was started succesfully 
+[ 2876 2328][30 Oct 13:28:36][TR_OVERSITE] FwcssSys was started succesfully
+[ 2876 2328][30 Oct 13:28:36][Fwcsssys] GetSystem - inside
+[ 2876 2328][30 Oct 13:28:36][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::Create - inside
+[ 2876 2328][30 Oct 13:28:36][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::TrScvComplianceEng  const' - inside
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] Init: __start__ 13:28:36.634
+[ 2876 2328][30 Oct 13:28:36][TR_EVENTS] TR_EVENTS::Register: Added cb 461907 to event 28e9bd8
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active_site is invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbGetValue: Successfully read (DWORD) key force_policy_reload with value 0
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbSetValue: Trying to open or create registry: Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbSetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:36][slim_utils] RaisDbSetValue: Successfully set (DWORD) key force_policy_reload with value 0
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] ConfigurationManager::isLegacyFormat()  return value is false 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TEST: ADDED default gw 1
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] ConfigurationManager::removeParam remove 'display_name', source: '3' 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active site entry resides in the 1 position
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] UpdateTopologyGws: topology changed. refreshing gw list
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] UpdateTopologyGws: gw initial gw was removed from the topology
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] UpdateTopologyGws: deleting gw initial gw
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] UpdateTopologyGws: adding new gw 2 - gscmumcpfw-Cluster
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] num_of_encdomains return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] gw_encdom_id return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw gscmumcpfw-Cluster ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::TrMepResolver::Ctor: entering...
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] neo_always_connected return value false, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] gw_bc_mode return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] display_name return value invpn.thegoldensource.com, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] neo_always_connected_retry return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] roaming_timeout_interval return value 1000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] neo_implicit_disconnect return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] neo_disconnect_when_idle return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] tunnel_idleness_timeout return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: Handle 1, adding gw invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] ConnUpdateStatusInRegistry: SCUIAPI mode is off. No need to publish state
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::SetIsDisableSDLInEncDomain: entering...
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: entering...
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: line read = <securitypolicy version="1" >
+
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute desktop not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute user_group not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute gw not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute connect_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy_mode not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_enable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute policy_type not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute drop_clear_to_enc not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_disable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_ipv6 not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute hotspot_ports not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute display_disable_warning_msg not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2876 2328][30 Oct 13:28:36][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: gwname or policy type does not exist, not enforcing firewall policy
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::isUserLoggedOn: Entering...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: start...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: Running on an NT system
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] FreeSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCGetCurrentShell: Ended
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] isUserLoggedOn: user is logged in, shellId=1972, shellName=explorer.exe 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: user is logged in -> do ConnRestoreProxyReplacement()
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][CONFIG_MANAGER] do_proxy_replacement return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:36][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::ConnRestoreProxyReplacement: Restoring proxy settings
+[ 2876 2328][30 Oct 13:28:36][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Starting ...
+[ 2876 2328][30 Oct 13:28:36][proxy_wrapper] ProxyWrapper::closeThreadIfExist: Starting ...
+[ 2876 2328][30 Oct 13:28:36][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Performing proxy recovery
+[ 2876 2328][30 Oct 13:28:36][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __start__
+[ 2876 2328][30 Oct 13:28:36][proxysupp] proxyConfigurationImage (ctor): Starting...
+[ 2876 2328][30 Oct 13:28:36][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __start__
+[ 2876 2328][30 Oct 13:28:36][proxysupp] MakeFilenames: Starting...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: start...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: already initialized
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StartRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][RunAs] FreeSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StopRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: start...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: already initialized
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StartRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][RunAs] FreeSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StopRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: start...
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: already initialized
+[ 2876 2328][30 Oct 13:28:36][RunAs] SCRunAsInit: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetProcessIdFromName: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2876 2328][30 Oct 13:28:36][RunAs] GetSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StartRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][RunAs] FreeSecurityContextInformation: Ended
+[ 2876 2328][30 Oct 13:28:36][RunAs] StopRunAsUser_ex: return (0)
+[ 2876 2328][30 Oct 13:28:36][proxysupp] MakeFilenames: m_proxyState.m_localAutoDetectPacFileName: [C:\Users\Razor\AppData\Local\CPAUTO.tmp]
+[ 2876 2328][30 Oct 13:28:36][proxysupp] MakeFilenames: m_proxyState.m_localURLPacFileName: [C:\Users\Razor\AppData\Local\CPLOCAL.tmp]
+[ 2876 2328][30 Oct 13:28:36][proxysupp] MakeFilenames: m_proxyState.rebuiltPacFileName: [C:\Users\Razor\AppData\Local\CPREBUILT.tmp]
+[ 2876 2328][30 Oct 13:28:36][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __start__
+[ 2876 2328][30 Oct 13:28:36][proxysupp] [WARNING] [proxyConfigurationImage::NotifyInProgressListeners] Nothing to do.
+[ 2876 2328][30 Oct 13:28:36][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:36][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __end__ Total: 16 milliseconds.
+[ 2876 2328][30 Oct 13:28:36][proxysupp] InitializeConfigurationImage: Starting...
+[ 2876 2328][30 Oct 13:28:36][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2876 2328][30 Oct 13:28:36][proxysupp] IsProxyDetected: Downloading not started
+[ 2876 2328][30 Oct 13:28:36][proxysupp] LoadCurrentProxyConfiguration: Starting...
+[ 2876 2328][30 Oct 13:28:36][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2876 2328][30 Oct 13:28:36][proxysupp] IsProxyDetected: Downloading not started
+[ 2876 2328][30 Oct 13:28:36][proxy_API] OsApiWrapper::Inst: creatng instance
+[ 2876 2328][30 Oct 13:28:36][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\jsproxy.dll
+[ 2876 2328][30 Oct 13:28:36][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\wininet.dll
+[ 2876 2328][30 Oct 13:28:37][proxy_API] OS_API::init: Successfully initiated
+[ 2876 2328][30 Oct 13:28:37][proxysupp] GetProxyAttributes: Starting... m_proxyState.connectionName is DefaultConnectionSettings
+[ 2876 2328][30 Oct 13:28:37][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __start__
+[ 2876 2328][30 Oct 13:28:37][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] full path to DAAW.exe: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe 
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] command line: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::exeCommandLine]  params are: 
+m_opaque: 00000000
+m_completion_cb: 00000000
+m_isAsync: 0
+m_useCache: 0
+m_requestTimeout: 10000
+
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] verified. ok.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::_exeCommandLine] dont use cache, delete all previous responses
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry to Delete is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry Deleted - ok
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [INFO] [ThreadArgs::createSynchEvent] m_syncEvent: 000004B8
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread]  about to create thread
+[ 2876 2328][30 Oct 13:28:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  thread id: 3624
+[ 2876 2328][30 Oct 13:28:37][proxysupp] ProxyThreadSharedData::add: adding thread 3624
+[ 2876 2328][30 Oct 13:28:37][proxysupp] ProxyThreadData::ProxyThreadData: ctor for thread 3624 
+[ 2876 2328][30 Oct 13:28:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow -> about to WaitForSingleObject
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __start__
+[ 2876 3624][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __start__
+[ 2876 2328][30 Oct 13:28:37][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __end__ Total: 0 milliseconds.
+[ 2876 3624][30 Oct 13:28:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 3624][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __start__
+[ 2876 3624][30 Oct 13:28:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  about to create process: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 3624][30 Oct 13:28:37][RunAs] SCRunProcessAsUser_withStdoutPipe: start...
+[ 2876 3624][30 Oct 13:28:37][RunAs] hChildStd_OUT_Wr 1224 
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetProcessIdFromName: Located PID 1972 for process
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetProcessIdFromName: Ended
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1972
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2876 3624][30 Oct 13:28:37][RunAs] GetSecurityContextInformation: Ended
+[ 2876 3624][30 Oct 13:28:37][RunAs] SCRunProcessAsUser_withStdoutPipe: Creating process as USER
+[ 2876 3624][30 Oct 13:28:40][RunAs] FreeSecurityContextInformation: Ended
+[ 2876 3624][30 Oct 13:28:40][RunAs] SCRunProcessAsUser_imp: Ended
+[ 2876 3624][30 Oct 13:28:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  process created ok -> close handles
+[ 2876 3624][30 Oct 13:28:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done closing handles. about to read from child process pipe...
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] dwRead: 491read buf: <OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] ! bSuccess -> break
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done reading from child process pipe
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  totaly read from pipe: 
+<OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __start__
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] new entry is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item not found
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] insert new entry - ok
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __end__ Total: 0 milliseconds.
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __end__ Total: 4041 milliseconds.
+[ 2876 3624][30 Oct 13:28:41][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  runCommandInNewImpersonateProcess done successfully
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  sync flow -> about to set event
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __start__
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] m_syncEvent: 000004B8
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __end__ Total: 0 milliseconds.
+[ 2876 3624][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __end__ Total: 4041 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - WaitForSingleObject returned
+[ 2876 2328][30 Oct 13:28:41][proxysupp] ProxyThreadSharedData::remove: thread 3624 is removed retured 1
+[ 2876 2328][30 Oct 13:28:41][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - information was successfully collected before timeout reached
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] m_syncEvent: 000004B8
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __end__ Total: 4041 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __end__ Total: 4041 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item found
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __start__
+[ 2876 2328][30 Oct 13:28:41][XmlWrapper] XmlDocument::LoadString: inside
+[ 2876 2328][30 Oct 13:28:41][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2876 2328][30 Oct 13:28:41][XmlWrapper] ConvertStringToBSTR: inside
+[ 2876 2328][30 Oct 13:28:41][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2876 2328][30 Oct 13:28:41][XmlWrapper] XmlDocument::Root: inside
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] deserialize succeeded
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] res->getReturnCode() = 0 res->getErrorDescription() = success
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] got xml from string. the XML response is valid (no error) response
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] final retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __end__ Total: 4041 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __end__ Total: 4041 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][proxysupp] GetProxyAttributes: succeeded to GetProxyAttributesQuery -> procceed
+[ 2876 2328][30 Oct 13:28:41][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __start__
+[ 2876 2328][30 Oct 13:28:41][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2876 2328][30 Oct 13:28:41][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:41][proxysupp] DownloadAutoDetectPACFile: Starting...
+[ 2876 2328][30 Oct 13:28:41][] The PRNG was not initialized properly
+[ 2876 2328][30 Oct 13:28:48][MessageLoop] MessageLoop::ExecuteRoutineInNewThread: thread created successfully
+[ 2876 2328][30 Oct 13:28:48][proxysupp] DownloadAutoDetectPACFile: downloading started
+[ 2876 2328][30 Oct 13:28:48][proxysupp] LoadCurrentProxyConfiguration: Completed with status = true.
+[ 2876 2328][30 Oct 13:28:48][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __end__ Total: 12121 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: entering...
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ccc_port return value 443, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] product_name return value TRAC, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ccc_idle_timeout return value 30000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] automatic_mep_topology return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: ERROR: no primary gw found
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: gw ip address is 119.226.62.122
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo:initialize: entered!044B85E0
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo::read_gray_list_timeout: gray list timeout  in Minutes: 120.
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo::read_gray_list: failed
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] hello_protocol_ver return value 100, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: First call to Init. Creating the CCC instance
+[ 2876 2328][30 Oct 13:28:48][talkhttps] ATalkHttps::ATalkHttps will not reuse
+[ 2876 2328][30 Oct 13:28:48][talkhttps] ATalkHttps::resetHttpVersion: set default version of HTTP to 1.0
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] inside talkccc::talkccc
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] inside talkccc:Init
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] talkccc::SetGatewayInfo: called 
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] GICopyHelper: start
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo:initialize: entered!044B8F50
+[ 2876 2328][30 Oct 13:28:48][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] GICopyHelper: end
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] GICopyHelper: start
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] GICopyHelper: NULL source
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] talkccc::SetGatewayInfo: finished
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] talkccc::talkccc ssl client cert will not be used
+[ 2876 2328][30 Oct 13:28:48][talkhttps] SetUseClientCert: false
+[ 2876 2328][30 Oct 13:28:48][talkssl] talkssl::talkssl(): entered with chunk=65536, opaque=44a89a8, link_established=4df852, link_failure=4df860, packet_receive=4df872, verify_gw=4df888
+[ 2876 2328][30 Oct 13:28:48][talkssl] talkssl::set_sslalg:  setting ssl alg to 1
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] hotspot_detection_enabled return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TalkCCC] talkccc::set_IdleTimeout: inside
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] def_gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TrConnManager::InitLocationAwareness: portal_addr = 119.226.62.122
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] location_awareness_enabled return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][location_awareness] LocationAwareness::SetAwarenessParams: Setting Location Awareness parameters
+[ 2876 2328][30 Oct 13:28:48][location_awareness] LocationAwareness::SetAwarenessParams: checkLocation = false
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ignore_sdl_in_encdomain return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitLocationAwareness: unregister for network notification - no use to update sdl on client location
+[ 2876 2328][30 Oct 13:28:48][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: m_callback_vec.size=0
+[ 2876 2328][30 Oct 13:28:48][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: callback not found, do nothing
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: calling reconf for logs upload
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] fw_log_upload_enable return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_FIREWALL] UploadLogsComponent::reconf: active site has log upload enabled, init  m_logConf
+[ 2876 2328][30 Oct 13:28:48][TR_FIREWALL] UploadLogsComponent::reconf: logFolder:D:\VPN\CHECK_POINT_VPN_CLIENT\,  gwname:invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] next_log_file_to_upload_index return value -1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 3716][30 Oct 13:28:48][proxysupp] AsynchDownloadAutoConfigThread: Starting with opaque (4466238) ...
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] number_of_tracker_log_files_limit return value 8, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] tracker_log_file_size_limit return value 250000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] remove_log_files_after_sending return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] write_pkt_alert_log_in_chunks return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x028EB8D8): __start__
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x028EB8D8): __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::StopLogUploading] __start__
+[ 2876 2328][30 Oct 13:28:48][rais] [WARNING] [LogDistributer::StopLogUploading] stop without start uploading
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::StopLogUploading] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __start__
+[ 2876 2328][30 Oct 13:28:48][rais] [INFO] [LogDistributer::ConfigurationHasChanged] new conf gw is invpn.thegoldensource.com, old conf gw is invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:48][rais] [INFO] [LogFiler::Instance(s)] create logFiler 
+[ 2876 2328][30 Oct 13:28:48][rais] [ERROR] [LogFiler::FlushBufferToFile] longConf is NULL
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x028EB998): __start__
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x028EB998): __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __start__
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __end__ Total: 0 milliseconds.
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: checking SCV hash and file.
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: vista or above detected, set bConsiderServiceJustStarted=true
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] about to check if the  scv hash is empty...
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] scv hash is empty - probably right after installation -> do not load scv
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] Init: __end__ 13:28:48.834. Total time - 12200 milliseconds
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::Init: called
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] client_policies return value trac_client_1&#range&#mep&#desktop&#user_groups&#scv&#dns&#, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: gateway = gscmumcpfw-Cluster
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: gateway = NULL gateway
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:48][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:48][] cpii_init: LoadLibrary('Ws2_32.dll') returned 771a0000
+
+[ 2876 2328][30 Oct 13:28:48][] cpii_init: LoadLibrary('iphlpapi.dll') returned 747d0000
+
+[ 2876 2328][30 Oct 13:28:48][om] om_mngr_recovery_cleanup: called
+[ 2876 2328][30 Oct 13:28:48][om] om_utils_clean_obsolete_dns_suffixes: called
+[ 2876 2328][30 Oct 13:28:48][om] om_utils_open_product_ver_key : failed to open product key: The system cannot find the file specified.
+[ 2876 2328][30 Oct 13:28:48][om] om_utils_open_registry_space : failed to open product key
+[ 2876 2328][30 Oct 13:28:48][om] om_utils_clean_obsolete_dns_suffixes: failed open vna registry space
+[ 2876 2328][30 Oct 13:28:48][om] om_mngr_init: used for product 2
+[ 2876 2328][30 Oct 13:28:48][om] om_mngr_init: completed per product initialization
+[ 2876 2328][30 Oct 13:28:48][vna] vna_cfgmgr_init: interface configuration timeout set to 40 seconds
+[ 2876 2328][30 Oct 13:28:48][vna] vna_cfgmgr_init: poll for interface change (yes every 500 msec)
+[ 2876 2328][30 Oct 13:28:48][vna] vna_cfgmgr_init: kernel traps - yes
+[ 2876 2328][30 Oct 13:28:48][vna] vna_cfgmgr_init: for product Apollo
+[ 2876 2328][30 Oct 13:28:48][] _cpNTlock: created and obtained mutex Devicevna_ap
+[ 2876 2328][30 Oct 13:28:48][] fwkmsg_init: initialized on fd 1236 buffer size 0 bytes
+[ 2876 2328][30 Oct 13:28:48][vna] wmi_utils_initial_init: Initializing COM
+[ 2876 2328][30 Oct 13:28:48][vna] vna_cfgmgr_init: completed ok 
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <         0.0.0.0,          0.0.0.0,          0.0.0.0, 0x0000000b, 20>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <       127.0.0.0,        127.0.0.0,        127.0.0.0, 0x00000001, 306>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <       127.0.0.1,        127.0.0.1,        127.0.0.1, 0x00000001, 306>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load < 127.255.255.255,  127.255.255.255,  127.255.255.255, 0x00000001, 306>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <     192.168.1.0,      192.168.1.0,      192.168.1.0, 0x0000000b, 276>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <     192.168.1.7,      192.168.1.7,      192.168.1.7, 0x0000000b, 276>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <   192.168.1.255,    192.168.1.255,    192.168.1.255, 0x0000000b, 276>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x00000001, 306>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x0000000b, 276>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x00000001, 306>
+[ 2876 2328][30 Oct 13:28:48][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x0000000b, 276>
+[ 2876 2328][30 Oct 13:28:48][om] om_mngr_init: completed ok 
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:48][TR_CPLOGON] LoadDLL: Not in scuiapi mode not loading LogonAgentAPI.dll
+[ 2876 2328][30 Oct 13:28:48][TR_CONN_MANAGER] TrConnManager::GetSCUIAPIMode: mbSCUIAPIMode is 0
+[ 2876 2328][30 Oct 13:28:48][TR_OVERSITE] TR_OVERSITE::Create: TrOversite inited OK
+[ 2876 2328][30 Oct 13:28:48][CONFIG_MANAGER] debug_mode_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:03][TracService] ServiceMain: Entered service's main entry point (Check Point Endpoint Security)
+[ 2852 376][30 Oct 13:42:03][cpservice] service_report_status_to_scm: Reporting start pending
+[ 2852 376][30 Oct 13:42:03][TracService] IsDisabledInEps: failed to read mode from registry
+[ 2852 376][30 Oct 13:42:03][TracService] 
+
+[ 2852 376][30 Oct 13:42:03][TracService] -------------------------------------------------------------
+[ 2852 376][30 Oct 13:42:03][TracService] 					SERVICE WAS STARTED 						
+[ 2852 376][30 Oct 13:42:03][TracService] -------------------------------------------------------------
+
+[ 2852 376][30 Oct 13:42:03][TracService] Software\CheckPoint\TRAC\5.0 exists - no need to backup
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::create: __start__ 13:42:3.611
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __start__ 13:42:3.611
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::init(): __start__ 13:42:3.611
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::load(): __start__ 13:42:3.611
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::loadDefaultParams()
+[ 2852 376][30 Oct 13:42:03][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __start__ 13:42:3.736
+[ 2852 376][30 Oct 13:42:03][XmlWrapper] XmlDocument::LoadString: inside
+[ 2852 376][30 Oct 13:42:04][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2852 376][30 Oct 13:42:04][XmlWrapper] ConvertStringToBSTR: inside
+[ 2852 376][30 Oct 13:42:04][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2852 376][30 Oct 13:42:04][XmlWrapper] XmlDocument::Root: inside
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __start__ 13:42:4.454
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] Saveing to trac.conf.lastgood
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __end__ 13:42:4.469. Total time - 15 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __end__ 13:42:4.469. Total time - 733 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __start__ 13:42:4.469
+[ 2852 376][30 Oct 13:42:04][FileManager] FileManager::openFile: file does not exist
+[ 2852 376][30 Oct 13:42:04][FileManager] FileManager::readFile: error occured while opening the file
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __end__ 13:42:4.469. Total time - 0 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __start__ 13:42:4.469
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __end__ 13:42:4.469. Total time - 0 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::load(): __end__ 13:42:4.469. Total time - 858 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::init(): __end__ 13:42:4.469. Total time - 858 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __end__ 13:42:4.469. Total time - 858 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] ConfigurationManager::create: __end__ 13:42:4.469. Total time - 858 milliseconds
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:04][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:04][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] langpack_filename return value LangPack1.xml, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:04][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2852 376][30 Oct 13:42:04][CONFIG_MANAGER] language_index return value 0, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:05][TR_OVERSITE] TR_OVERSITE::Create: Successfully loaded localization engine.
+[ 2852 376][30 Oct 13:42:05][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 2852 376][30 Oct 13:42:05][proxy_wrapper] ProxyWrapper::Create: Starting ...
+[ 2852 376][30 Oct 13:42:05][TR_OVERSITE] TR_OVERSITE::Create: about to set proxy connections start / end CB
+[ 2852 376][30 Oct 13:42:05][proxy_authentication] ProxyWrapper::setCloseProxyConnectionFwCb: done - 4427261
+[ 2852 376][30 Oct 13:42:05][proxy_authentication] ProxyWrapper::setStartProxyConnectionFwCb: done - 4427232
+[ 2852 376][30 Oct 13:42:05][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::Init: entering...
+[ 2852 376][30 Oct 13:42:05][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2852 376][30 Oct 13:42:05][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2852 376][30 Oct 13:42:05][slim_utils] RaisDbGetValue: Successfully read (REG_SZ) key client_sub_type with value EndpointSecurity
+[ 2852 376][30 Oct 13:42:05][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::isOfficeModeIsDisabledByUser: entering...
+[ 2852 376][30 Oct 13:42:05][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: failed to read mode from registry
+[ 2852 376][30 Oct 13:42:05][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: OM is not disabled in registry -> return false
+[ 2852 376][30 Oct 13:42:05][TR_FEATURE_MANAGER] TrFeatureManager::Init: Office mode is NOT disabled by user -> enable ENDPOINT_SECURITY_TYPE features
+[ 2852 376][30 Oct 13:42:05][TR_FEATURE_MANAGER] TrFeatureManager::Init: mOfficeModeEnable=true,mSplitDnsEnable=false,mLocationAwarenessEnable=true,mAlwaysConnectEnable=true,mRoamingEnable=true,mHotspotDetectionEnable=true,mFirewallEnable=true,mScvEnable=true
+[ 2852 376][30 Oct 13:42:05][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: entering...
+[ 2852 376][30 Oct 13:42:05][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: loading library: C:\Windows\system32\FirewallMonitor.dll
+[ 2852 376][30 Oct 13:42:07][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_initLibrary returned true
+[ 2852 376][30 Oct 13:42:08][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: firewall monitor initialized successfully
+[ 2852 376][30 Oct 13:42:08][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_SetFtpStatus(true) returned true
+[ 2852 376][30 Oct 13:42:08][messaging] messaging::setup: created a new TCP multi-pipe
+[ 2852 376][30 Oct 13:42:08][TTRAC3a2c1a62707a706806100201750b0777041342597765111610670f505e5f7b020a0165086b0b170f69754d46273e0a6e6478637f100c091d52557c4d4a171357404556534b5570575450587e58454341481f7e657b151579413a4c423922267619086515156a740d7b3121293129700d2e452d29263616322c5e6c50424a4602627e62766f0b2f19252638273a1b6475606460ff0e0e1d505253514706115b56484b352b20175f213b14666e1a15190b5d4c4c423e505d6c08111d1360781a7a6724292a6a2a4e41414c5644474b535f505a5f523e425c43405a071451464c437057465641425e106c657e7e6318205d4c4f453a4c76796a7d0904660b6a67203b5f38327078342a3e523648211a28273a64026c61757319232b26353d096d72754573617a7c7519203d38280e0d60756c600302424457591f61617a01794c423e7b0d60627c6768403d597bff0f7d18060d1519606e395e2c497b2c2127251d020f0a01101f1001090405110f1021021e0c1f111846401207ff0104040d1b1909010f16150e1119443b372368562226557913415d403d594c4c76563e3a33177f736c126213766b78757b6a771b021a111c1bff125044171d0708201f1e1b16051407060b1412125f5f4d53015a574f457e033a2d205e484c410d202f5a4a7d6768771561707766046b667c7d667e7c026e176678263269667f030a05110b12141e11020e0e151b7d435e530e56424755601939263b3a323c280155464a4d6d1c18177670707a1d707d060517797a7bff65677827477976626b60616a01791473746b7b242b3d4b1351444b4b701336393e353a2f1912495240527706080c07051aff1e0b071311021815020f0206143b31656a036b7c0619017a6d7819647467755e3626346535283c51051a4d4c404c444d461356534d44780d130112020a050821021c04ff03140b095d51100d021e0e1b110e1e11150e025e4b5b3265202f5d241a082226415e440911020b096106041b795946583d5e1816ff1a131609ff7f751b1f2c232822017d766d76763f1012174a414a5e4741444002575d5e5b535a435406115b5c4c5d31281a265c2c3c5548463c3a2c5f203024687e180613156c465b395d2b4d4c770b08160e7d1c081d074f51435e5615025343644f495b405c4676474b444743536f50504f1f7d60766d6f0f2d205d4f48413a7b0575796e187b750976746b7f01776566747e7b63126a5420212836201b2b43434203686b706e6f0c3e363e2c1d25250b63727768641d190e0d57425d544557121c56494c467b5a212a2c3e56373814666e1a15190b5d4c4c423e505d6c08111d1360781a7a672c342b252b45110946484b4c5d5a43421f7a67426d7c09273a2c23393b2c0e6273627e650e030e03150208010a1860746b7c026775464f4b2924206823226505720b15027959465b3a5a2f4d7b04071b051f020f0a01776f717a607b647e151b7548435871564148465555457040554c4001727173657c033a2d205e484c410d0809666a7f67687715392a2666563a26272a232137543b4923202132672a3f5b5d5d01184f4f4e516f4e5e5b566345481563727768640e2c3926383d363c1f727173657c100f1a0b31362929556775554a5c172720171904170963655d5b4c5a425b39696b051708166678710f5e5b400b4f415d4a5f445152427c434b5046470b4744444b590d0f5552544f4b434e4c7348540464151704180f4c413d212276060c64011a0807611f685b4c5a425b0e03750d0916110e6b73243a3e2e1b7363787a647678181a1925253f230d606e7a73776f7f7b1f033c2836392b29125a544a48066a797611707d0605197c66670f62746b7a0a68766f2a246f70ff79107077677e7f75611f0a050118474d5d5910525859474210253c273a2c23393b2c39260c55585b406d1f1d1a0e0a061607657677660b73791a191679767458206567781d6967606b6879631e651f7567742b2636290d56534d44781e2636393e363d2b1925253c1056424755600a0c1110050a070f0802130a1409020a1b6d7467755c3168161b0171657b196c73746601606570783d2020567743232b2814754d46243a3d2928232b26360e525859474203100b0c06101b1a071002010a011107160e121c4b581f111407646b7d791d777f050912253b3b5174202226520b685b4c59465b3a5a2f4d4c40782c23214c611b1f1b08171a0d1e030d050822151d1b1e0207145b4605121f1c040d070f0d09100a1c0e1119443b372368562226557913415d403e5d4f48413a505d6c2037213362781a7a677c737b6a7e0303050d151bff125044171d070821021c04ff03140b095f4a42491255585b406d0c282d25363a2e246aff0206721717646213415d403e5e484c413a6703151a1dffff76781a4d4c404f4349716072666275051e111dff1502534f4f4143514d5d40764355057d6e60716f09283639282d26323a2d205d7b110b760f0a7b0413767614523724233a562d3a1b2b3f262653324a211622282008145f5c4040407cff125a404e4b1704754f4d535c5651475d6d49555c6d5b515c4d1d0d44494d5113706a110f07070f4c413d22264259403e5d4c7b05720b15026a6c7170017a0479212019242b2b4e5d517c514f515d5a40424c685273495e5c4a1368686673750c263b39363c2b3239282d25017e657b15156a740d677a061a017a62670166776b710268766f37342b33403e79332216202c206f6072666275162b2636393e353a2f1925250b63727768641d190e0d40554b465453730c534a4f50495c3926362f11782d594a41172d285b24362c2c131415ff04ff735b395e2f4d4f444f404d46137e7571647a0d130112050d0608221a02031c010b100503070d5d56545e454860544f545a1f7e657b151579413a4c413d2122415d403e6a08041a72097b6e7b722a215c3640667830212628205d5c407c4b457d4b5a43565d6856795b4b6a4d5f444a147f64626e620c363c2836392b2925363a2d1719041709636a740a091d7a656705626b737a01776d6374727220543347342c16312e64026c61757319232b2636393d323e2f192512786f6164791b0e1b121a0b040e07140903031949525a50763a2a2c3c52372144534a173c3d42356508096118046e4c59465b395d2b4d4c404f77100c6879766c0a162b2636393e353a18446f697f6c7c0a153d3b2c39263b3a320b455355486203030d064861282a26466b324e054c3b336743392228385034213f2623286f7f751b213025273f646d63771462660a565d5a731502524b71420c5142564c6f083b2c39263b39363f2c3639282d25360d4045312c03670f7b6a551e42273a3c192e3f6b2b403e7a2628372222533a5329263a21740b63484755404c4c4b5b4d55741f7976460c5e505a405045771f52565f515d4a58424c571c6a6f1d0e415c38243368110b0c145f5d2d176b0a31282426133d38372c16735b395e2f4d4c404c447a6d5f5a55734b6e565d5a731502525669580c175a5d4044515e601212575d5e5b016b73646e6e700f2d205d4c4c4139487616765d213519591031372d7002263d31332a04126a43343c3d666b373b5f56577c524dff125a5d5651177253696677610f2c203d3b2c3a223b39363c1f727173657c100f1a0b392a266656263a41445c26312d5b3b22202047777e70783e2c0d42325036203a6604051d6c63082a2c232b26353d3e363e2f2e616d676f630a150a1017021e1c02091b170d020f1d1d0e11194c39242b3c402a206b5c4868190865151579413a505d5b4f5d465b395e1810060c0c0b0b60110d167e51444b744d5f435c5270321149455747050b47564c6f425d545c5b44605444405953504a4076782025522b6860686a0216060b5d4c4c413a53595b4c59466c7d16740515667a77667b0303050d1d1c13010d09061d0a56797340544041405d5a5b7a4748127d7e67606f0c282d25363a2e246a1202177e0a1a721726415d403d597b673a562d272729136225562745293024253a236d105659424b0a7b6e6875637e701a1925253f230d717a7d7e7a67680e39363f2c360e766373727c766f7b794c41394876796a7d0904660b6a6701016c171b1b16030a016f1976120619056b792a40525a7c40434940505317727674517c103c273a2f243d3b1b7d6e60716f1a1d01121616190f55424a6d20762a57777950494c786371533573237a0561313772337a700d2456312a3b2116362a5e46146e6478637f03393e363d2b192512786f6164791b0e1b124a47424b171c5a544847495b6c5047312c292b13676a09454b17352a6838242b3a562d3a3b651d0eff71071a4d4c404c444d46137e7571647a0d130112051d0a526543495847477a5d57574b5e40514356517e4b59424d404f5e4d763b202b687e041a757b13415d403d594c4c767e180613157f736c12325336316b7b2c20264e56507c514447465353171d151b744940574f5d40764741405e4a405148547e515f48504d5c5c4809190417096379413d2225455d4009190417096376686c67616d6f492552213716222c302c485d5a4c467551565e475b5e684975420c786f616479083b2c39253f39360b6c7e62607403030d061e65757768067472ff1b157a65690f66652b2979792033167272375d3e521b312a23272a204e6c4050444602627e62766f0b2f19252638273a1b6475606460ff0e0e1d03170a071712140a1119473b2c363a5633174d4846243b39171904170963655d5b4c5a425b39696b051708166678710f56415151081f4b5a5c555e59434f584250475f4609797377717f0e39363c2b3239281a617e6165797b797b6a55767c0d4f4c79327b526474262e016b6d3771642c6106331e25202a7e2b73790f0e4446480a6f6e6d7167033e2f1926213c270d68686673751f130c1206064308061513480b501d116673737a06722c574e172a377b026d20707b063c766f2037213342776b05170816754d462439392a2c146f6e6d7167100b18324959475a11184c5850445e4a6d545e5a4d4f457e4343536c534f7408041a7215743d22264259403e6a08041a72097b6e7b722a2742230479202d2f2a212b72475a464c46410f1d120a564747737349594c524b4c147f64626e620c363c28353d282d1272727668046a797611203d465f0d75312d5e372021174737313b29336f70126a43202c3a323c2b10595c5a7c564f4f4e516f5c4d58516449426a4052495e6b4156554157425e4240605e4e4d585e504b457408041a7215743d22264259403e6a08041a72097b6e7b727c6604751b3037263616303d4243474d445856704b40544b176b517e6d65123a2c203e3f2c39117f716d7471100c1f06494a41500b6920212150202c6b5f412d3d2554746767755b2d333c203c10364238513736283616767e7d6c5a4a480a6f6e6d7167033e2f1926213c270d68686673751f130c125a40534b121c5d4b505f4b593b311a3856281757425b2939264321246505720b15027959465b3a5a2f4d7b04071b051f020f0a01171c12180f0615025b47665e4941405a7a4c595b516f5b5155515b4e5c6f55574d53136968060415743a4c413e2626416a0476060415670f6776362b3f3f215525792b3116323a36264b11094641454f704f555a1f7a67426d7c09273a2c23393b2c0e6273627e650e030e0341594d47061431212c2b56211740454a21382a177667783c503c3a3c2a333c3b5408522d26202a392926725c514d0567637d7e600b363e2f1a21253c107e647b75620a0c1110ff0b01101d0d5551435a5e4d5d0b21372744363b555b703a313a420b37202a5e3c3937370f20375e776b05170816754d462439392a2c146f6e6d7167100b18324959475a11185e536d4b5f7056554b474e4f405457735b5d45763020292a522b2d6b5f4c2d3a2758371a3c3a523d3a3d26353c0d433e0609041b07197846243a3e2e2c231c627e62766f181a2e0e49405c47071451564c534a566f4b5b44565c42040e1d0e415f3d29241743202d5f0b6209060867684c4c4139545d5b7b1d0eff710709787b6b233c363b0f0e51474c49474b6044595a5e4a730c0e1713404b465d464453405e6f5a5d425e537e575f5a5d415b353224175d2a21404a4c2738697a151704180f505d5b4f5d465b0e1a6716041969757a6d484646570717474b5653525b68527e4945594d13070b0959465547516f5c517e4c43444a494d5253480b2b2a2147242b5b470f05151b7604794c413a53595b4c6e02136216766b7977642c313d591109464143414a5b6f4351524f7c4f0c170c0e404d5d415145406d554d547e4c5b534b5b4b564a763a24293f6c363b51454a3a353e560b2b2a214738373d29700213621676784c404f434946240d7962776b72ff030e155a4254640e11504a5a464c506d515e4a5b5c5c15031d0d4541585c564a473b261a3b4a243f584a70273127171904170963655d5b4c5a425b39696b051708166678710f0106120b181401090205110e17210e11474a5744595d6d415e5f44107274737e601d2d25363929205d7b08096104181b17116a3628547a3626216c35377d362421375e3856292a2a691a07060240404d40434e4c10120a5345534f4e4d5671404640147f64626e620c363c28353d282d1272727668046a797611203d465f0d75312d5e372021174737313b29336f70126a10323520193e2b234152146e6478637f03393e363d2b192512786f6164791b0e1b124a415c5e5303025444484e5e5d41763a2a2c3c52373c4742482d2616433b35363c5c31741f04020e020c5e2f4d4f444f407a026c6175730a161c0d5c015506561527191bff4b511d1e075746544c05555d07185a5547121b5c57150b69741a3c5d20215848702b353b437408041a7209685b4c59455f395e1809041b07196b7313110412151a121f0f090e1d0a487f455f474b457a4b55517a434c5b107274737e601d2d25363929205d7b08096104181b17116a6479067678372d4506383d263f3b3d4227792b2925232164026c61757319232b26353d3e36096b517e6d65010f1b0b5507485f41471e454f0f5c43460a58525449593728302550362f09640d753a2d6835262c687e180613156c465b395d2b4d4c770b08160e7d1c081d074f575d4b120a5a534f7349486a5a5d4040585105120d0f555756405c6f524a48605b575c38236505721709641726415d433a5d4c7b05720b15026a6c717055244a25236b7b2d21234f525a467a444d464b53524b52424f5843455d474a41147f64626e620c363c28353d282d1272727668046a797611203b584a496a6930562320312954063c35303f3d3a4408452d232f273b3010415f557c405e57404d6f585a59065d6d7e747e0f2c203d382839260c7d7e67606f1f1d1a0e4d56505a2129066544233857465a25373a507678322f6c3d31203735293742270609041b07197846243a3e2e2c231c627e62766f181a2e0e1c051b07071440404a4070464250455251515350734b4745477408041a7215743d22264259403e6a08041a72097b6e7b722a2742230479202d2f2a212b72475a464c46410f1d120a5356506249585b476c405f5d5e446f5f575554156c7e62607410363a2d23594c4c767e041a757bff746a6b52302c262d5706203c20392331126a422b2d3d23241b21425a4042464356415a58434a56796440595448564109797377717f0e39363c2b3239281a617e6165797b797b6a4a262158445f172426433f36202c11642d312c3c20226f3b4a25322c3420226f6072666275162b26363a3a363e185d6d7e747e1c1917165750425b100d5a51485c55457b5851564d453765676a0e312651464a2b35254731371a314b3626221a3f2b727d16740515754f404d45203a3d1d686b706e6f1f0b0115163211584041564840406d56434a5c55535148605c444a424a470464151704180f4c413d2122415d777a151704181c656a7031332a2655130b2b313c076b793b5f5c44504b4b505b1f7d766d76762c25253c243e2c200a7f64626e621f030b030d0211141c0f06171176782b275a363a515d703c3a2c5e38266505720b15027959465b3a5a2f4d7b04071b051f020f0a0140594e4e59120a5a53497d734f5771444209797377717f0e39363c2b3239281a617e6165797b797b6a06707a01131a7d6c7d06767820255a2d0b262635213c5f34792d35282f3c273c0d7e7571647a1e2636393d323e2f2e616d676f630a150a10141212415e56544c5054424a4960554b7639302b687e041a757b13415d403d594c4c767e180613157f736c126a1b23033d0e192c601f0450677d7d136469415372014f2467457919695f6761466175421d4a467b2b325a196b675e491458631c2a1d7bff396d5b5e7f0e0c503bff71297113213e32371e2a42635e226a7c0e336b045d67504b577d497b0b7b05770e412656676d59012f244e6811496a5048495143535b6c77400a7511472e200b1859232e5b4f643d6d19562e2f6a3d581a66361d6637ff77044036177a2366082a6e074d51424c14656c3a3a53436967

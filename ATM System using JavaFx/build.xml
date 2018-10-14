@@ -1,0 +1,48 @@
+864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [scvproxy] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfData] Initialize data : Plugins path in registry: SOFTWARE\CheckPoint\TRAC\Plugins
+[ 2596 2864][30 Oct 13:07:08][ConfData] Initialize data : SCV Plugins path in registry: SOFTWARE\CheckPoint\TRAC\SCV\Plugins
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] ConfData::Append_PI_Info_List - inside...
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [AntiVirusMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [BrowserMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [groupmonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [HotFixMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [HWMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [OsMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [ProcessMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [RegMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [ScriptRun] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [SCVMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Reading registry [WindowsSecurityMonitor] Plugin
+[ 2596 2864][30 Oct 13:07:08][ConfDataPIInf] Plugin version [1.0]
+[ 2596 2864][30 Oct 13:07:08][TR_OVERSITE] Configuration Data was initialized successfully
+[ 2596 2864][30 Oct 13:07:08][WatchPoint Fwcsssys PluginMan] FwcssSys::Create
+[ 2596 2864][30 Oct 13:07:08][TR_OVERSITE] FwcssSys was created successfully
+[ 2596 2864][30 Oct 13:07:08][TR_OVERSITE] Going to start FwcssSys
+[ 2596 3028][30 Oct 13:07:08][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart Inside
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] FwcssSys::InternalStart - ISystem was created successfully
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] FwcssSys::InternalStart - ISystem was publisheded successfully
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] FwcssSys::InternalStart - ILdMan was created successfully
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] FwcssSys::InternalStart - Plugin Manager was created successfully
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] FwcssSys::InternalStart - PluginMan published successfully
+[ 2596 3028][30 Oct 13:07:08][Fwcsssys] ScvPluginMan created succesfully
+[ 2596 3028][30 Oct 13:07:08][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart - SCV PluginMan was published successfully
+[ 2596 3028][30 Oct 13:07:08][LdManInit] LdMan::Init - inside
+[ 2596 3028][30 Oct 13:07:08][LdManInit] Array of plugins info has 12 entries
+[ 2596 3028][30 Oct 13:07:08][LdManInit] CONFID_PRIV_CP_SCV_DLL is AntiVirusMonitor;BrowserMonitor;groupmonitor;HotFixMonitor;HWMonitor;OsMonitor;ProcessMonitor;RegMonitor;ScriptRun;SCVMonitor;WindowsSecurityMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[0] = AntiVirusMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[1] = BrowserMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[2] = groupmonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[3] = HotFixMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[4] = HWMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr

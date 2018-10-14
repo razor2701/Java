@@ -1,0 +1,342 @@
+AD_NOT_INIT'
+[ 2596 2864][30 Oct 13:07:10][proxysupp] IsProxyDetected: Downloading not started
+[ 2596 2864][30 Oct 13:07:10][proxy_API] OsApiWrapper::Inst: creatng instance
+[ 2596 2864][30 Oct 13:07:10][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\jsproxy.dll
+[ 2596 2864][30 Oct 13:07:10][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\wininet.dll
+[ 2596 2864][30 Oct 13:07:10][proxy_API] OS_API::init: Successfully initiated
+[ 2596 2864][30 Oct 13:07:10][proxysupp] GetProxyAttributes: Starting... m_proxyState.connectionName is DefaultConnectionSettings
+[ 2596 2864][30 Oct 13:07:10][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __start__
+[ 2596 2864][30 Oct 13:07:10][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] full path to DAAW.exe: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe 
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] command line: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [DEBUG] [DesktopApplicationApiHandler::exeCommandLine]  params are: 
+m_opaque: 00000000
+m_completion_cb: 00000000
+m_isAsync: 0
+m_useCache: 0
+m_requestTimeout: 10000
+
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] verified. ok.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [DEBUG] [DesktopApplicationApiHandler::_exeCommandLine] dont use cache, delete all previous responses
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry to Delete is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry Deleted - ok
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [INFO] [ThreadArgs::createSynchEvent] m_syncEvent: 000004B8
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread]  about to create thread
+[ 2596 2864][30 Oct 13:07:10][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  thread id: 3048
+[ 2596 2864][30 Oct 13:07:10][proxysupp] ProxyThreadSharedData::add: adding thread 3048
+[ 2596 2864][30 Oct 13:07:10][proxysupp] ProxyThreadData::ProxyThreadData: ctor for thread 3048 
+[ 2596 2864][30 Oct 13:07:10][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow -> about to WaitForSingleObject
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __start__
+[ 2596 3048][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __start__
+[ 2596 2864][30 Oct 13:07:10][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __end__ Total: 0 milliseconds.
+[ 2596 3048][30 Oct 13:07:10][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 3048][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __start__
+[ 2596 3048][30 Oct 13:07:10][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  about to create process: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 3048][30 Oct 13:07:10][RunAs] SCRunProcessAsUser_withStdoutPipe: start...
+[ 2596 3048][30 Oct 13:07:10][RunAs] hChildStd_OUT_Wr 1220 
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2596 3048][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Ended
+[ 2596 3048][30 Oct 13:07:10][RunAs] SCRunProcessAsUser_withStdoutPipe: Creating process as USER
+[ 2596 3048][30 Oct 13:07:11][RunAs] FreeSecurityContextInformation: Ended
+[ 2596 3048][30 Oct 13:07:11][RunAs] SCRunProcessAsUser_imp: Ended
+[ 2596 3048][30 Oct 13:07:11][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  process created ok -> close handles
+[ 2596 3048][30 Oct 13:07:11][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done closing handles. about to read from child process pipe...
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] dwRead: 491read buf: <OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] ! bSuccess -> break
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done reading from child process pipe
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  totaly read from pipe: 
+<OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __start__
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] new entry is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item not found
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] insert new entry - ok
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __end__ Total: 0 milliseconds.
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __end__ Total: 6759 milliseconds.
+[ 2596 3048][30 Oct 13:07:17][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  runCommandInNewImpersonateProcess done successfully
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  sync flow -> about to set event
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __start__
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] m_syncEvent: 000004B8
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __end__ Total: 0 milliseconds.
+[ 2596 3048][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __end__ Total: 6759 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - WaitForSingleObject returned
+[ 2596 2864][30 Oct 13:07:17][proxysupp] ProxyThreadSharedData::remove: thread 3048 is removed retured 1
+[ 2596 2864][30 Oct 13:07:17][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - information was successfully collected before timeout reached
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] m_syncEvent: 000004B8
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __end__ Total: 6759 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __end__ Total: 6759 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item found
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __start__
+[ 2596 2864][30 Oct 13:07:17][XmlWrapper] XmlDocument::LoadString: inside
+[ 2596 2864][30 Oct 13:07:17][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2596 2864][30 Oct 13:07:17][XmlWrapper] ConvertStringToBSTR: inside
+[ 2596 2864][30 Oct 13:07:17][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2596 2864][30 Oct 13:07:17][XmlWrapper] XmlDocument::Root: inside
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] deserialize succeeded
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] res->getReturnCode() = 0 res->getErrorDescription() = success
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] got xml from string. the XML response is valid (no error) response
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] final retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __end__ Total: 6759 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __end__ Total: 6759 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][proxysupp] GetProxyAttributes: succeeded to GetProxyAttributesQuery -> procceed
+[ 2596 2864][30 Oct 13:07:17][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __start__
+[ 2596 2864][30 Oct 13:07:17][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2596 2864][30 Oct 13:07:17][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:17][proxysupp] DownloadAutoDetectPACFile: Starting...
+[ 2596 2864][30 Oct 13:07:17][] The PRNG was not initialized properly
+[ 2596 2864][30 Oct 13:07:17][] CAPI service provider:
+[ 2596 2864][30 Oct 13:07:17][] ======================
+[ 2596 2864][30 Oct 13:07:17][] 
+[ 2596 2864][30 Oct 13:07:17][] Name:           Microsoft Strong Cryptographic Provider
+[ 2596 2864][30 Oct 13:07:17][] Implementation: Software
+[ 2596 2864][30 Oct 13:07:17][] Version:        2.0
+[ 2596 2864][30 Oct 13:07:23][MessageLoop] MessageLoop::ExecuteRoutineInNewThread: thread created successfully
+[ 2596 2864][30 Oct 13:07:23][proxysupp] DownloadAutoDetectPACFile: downloading started
+[ 2596 2864][30 Oct 13:07:23][proxysupp] LoadCurrentProxyConfiguration: Completed with status = true.
+[ 2596 2864][30 Oct 13:07:23][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __end__ Total: 12389 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: entering...
+[ 2596 3592][30 Oct 13:07:23][proxysupp] AsynchDownloadAutoConfigThread: Starting with opaque (4256238) ...
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ccc_port return value 443, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] product_name return value TRAC, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ccc_idle_timeout return value 30000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] automatic_mep_topology return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: ERROR: no primary gw found
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: gw ip address is 119.226.62.122
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo:initialize: entered!042A85E0
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo::read_gray_list_timeout: gray list timeout  in Minutes: 120.
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo::read_gray_list: failed
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] hello_protocol_ver return value 100, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: First call to Init. Creating the CCC instance
+[ 2596 2864][30 Oct 13:07:23][talkhttps] ATalkHttps::ATalkHttps will not reuse
+[ 2596 2864][30 Oct 13:07:23][talkhttps] ATalkHttps::resetHttpVersion: set default version of HTTP to 1.0
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] inside talkccc::talkccc
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] inside talkccc:Init
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] talkccc::SetGatewayInfo: called 
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] GICopyHelper: start
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo:initialize: entered!042A8F50
+[ 2596 2864][30 Oct 13:07:23][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] GICopyHelper: end
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] GICopyHelper: start
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] GICopyHelper: NULL source
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] talkccc::SetGatewayInfo: finished
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] talkccc::talkccc ssl client cert will not be used
+[ 2596 2864][30 Oct 13:07:23][talkhttps] SetUseClientCert: false
+[ 2596 2864][30 Oct 13:07:23][talkssl] talkssl::talkssl(): entered with chunk=65536, opaque=4299060, link_established=4df852, link_failure=4df860, packet_receive=4df872, verify_gw=4df888
+[ 2596 2864][30 Oct 13:07:23][talkssl] talkssl::set_sslalg:  setting ssl alg to 1
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] hotspot_detection_enabled return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TalkCCC] talkccc::set_IdleTimeout: inside
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] def_gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TrConnManager::InitLocationAwareness: portal_addr = 119.226.62.122
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] location_awareness_enabled return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][location_awareness] LocationAwareness::SetAwarenessParams: Setting Location Awareness parameters
+[ 2596 2864][30 Oct 13:07:23][location_awareness] LocationAwareness::SetAwarenessParams: checkLocation = false
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ignore_sdl_in_encdomain return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitLocationAwareness: unregister for network notification - no use to update sdl on client location
+[ 2596 2864][30 Oct 13:07:23][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: m_callback_vec.size=0
+[ 2596 2864][30 Oct 13:07:23][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: callback not found, do nothing
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: calling reconf for logs upload
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] fw_log_upload_enable return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_FIREWALL] UploadLogsComponent::reconf: active site has log upload enabled, init  m_logConf
+[ 2596 2864][30 Oct 13:07:23][TR_FIREWALL] UploadLogsComponent::reconf: logFolder:D:\VPN\CHECK_POINT_VPN_CLIENT\,  gwname:invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] next_log_file_to_upload_index return value -1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] number_of_tracker_log_files_limit return value 8, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] tracker_log_file_size_limit return value 250000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] remove_log_files_after_sending return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] write_pkt_alert_log_in_chunks return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x0034B8D8): __start__
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x0034B8D8): __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::StopLogUploading] __start__
+[ 2596 2864][30 Oct 13:07:23][rais] [WARNING] [LogDistributer::StopLogUploading] stop without start uploading
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::StopLogUploading] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __start__
+[ 2596 2864][30 Oct 13:07:23][rais] [INFO] [LogDistributer::ConfigurationHasChanged] new conf gw is invpn.thegoldensource.com, old conf gw is invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:23][rais] [INFO] [LogFiler::Instance(s)] create logFiler 
+[ 2596 2864][30 Oct 13:07:23][rais] [ERROR] [LogFiler::FlushBufferToFile] longConf is NULL
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x0034B998): __start__
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x0034B998): __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __start__
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: checking SCV hash and file.
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: vista or above detected, set bConsiderServiceJustStarted=true
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] about to check if the  scv hash is empty...
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] scv hash is empty - probably right after installation -> do not load scv
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] Init: __end__ 13:7:23.65. Total time - 12404 milliseconds
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::Init: called
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] client_policies return value trac_client_1&#range&#mep&#desktop&#user_groups&#scv&#dns&#, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: gateway = gscmumcpfw-Cluster
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: gateway = NULL gateway
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:23][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2596 2864][30 Oct 13:07:23][] cpii_init: LoadLibrary('Ws2_32.dll') returned 76420000
+
+[ 2596 2864][30 Oct 13:07:23][] cpii_init: LoadLibrary('iphlpapi.dll') returned 6fa60000
+
+[ 2596 2864][30 Oct 13:07:23][om] om_mngr_recovery_cleanup: called
+[ 2596 2864][30 Oct 13:07:23][om] om_utils_clean_obsolete_dns_suffixes: called
+[ 2596 2864][30 Oct 13:07:23][om] om_utils_open_product_ver_key : failed to open product key: The system cannot find the file specified.
+[ 2596 2864][30 Oct 13:07:23][om] om_utils_open_registry_space : failed to open product key
+[ 2596 2864][30 Oct 13:07:23][om] om_utils_clean_obsolete_dns_suffixes: failed open vna registry space
+[ 2596 2864][30 Oct 13:07:23][om] om_mngr_init: used for product 2
+[ 2596 2864][30 Oct 13:07:23][om] om_mngr_init: completed per product initialization
+[ 2596 2864][30 Oct 13:07:23][vna] vna_cfgmgr_init: interface configuration timeout set to 40 seconds
+[ 2596 2864][30 Oct 13:07:23][vna] vna_cfgmgr_init: poll for interface change (yes every 500 msec)
+[ 2596 2864][30 Oct 13:07:23][vna] vna_cfgmgr_init: kernel traps - yes
+[ 2596 2864][30 Oct 13:07:23][vna] vna_cfgmgr_init: for product Apollo
+[ 2596 2864][30 Oct 13:07:23][] _cpNTlock: created and obtained mutex Devicevna_ap
+[ 2596 2864][30 Oct 13:07:23][] fwkmsg_init: initialized on fd 1324 buffer size 0 bytes
+[ 2596 2864][30 Oct 13:07:23][vna] wmi_utils_initial_init: Initializing COM
+[ 2596 2864][30 Oct 13:07:23][vna] vna_cfgmgr_init: completed ok 
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <         0.0.0.0,          0.0.0.0,          0.0.0.0, 0x0000000b, 20>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <       127.0.0.0,        127.0.0.0,        127.0.0.0, 0x00000001, 306>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <       127.0.0.1,        127.0.0.1,        127.0.0.1, 0x00000001, 306>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load < 127.255.255.255,  127.255.255.255,  127.255.255.255, 0x00000001, 306>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <     192.168.1.0,      192.168.1.0,      192.168.1.0, 0x0000000b, 276>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <     192.168.1.7,      192.168.1.7,      192.168.1.7, 0x0000000b, 276>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <   192.168.1.255,    192.168.1.255,    192.168.1.255, 0x0000000b, 276>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x00000001, 306>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x0000000b, 276>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x00000001, 306>
+[ 2596 2864][30 Oct 13:07:23][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x0000000b, 276>
+[ 2596 2864][30 Oct 13:07:23][om] om_mngr_init: completed ok 
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2596 2864][30 Oct 13:07:23][TR_CPLOGON] LoadDLL: Not in scuiapi mode not loading LogonAgentAPI.dll
+[ 2596 2864][30 Oct 13:07:23][TR_CONN_MANAGER] TrConnManager::GetSCUIAPIMode: mbSCUIAPIMode is 0
+[ 2596 2864][30 Oct 13:07:23][TR_OVERSITE] TR_OVERSITE::Create: TrOversite inited OK
+[ 2596 2864][30 Oct 13:07:23][CONFIG_MANAGER] debug_mode_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:07][TracService] ServiceMain: Entered service's main entry point (Check Point Endpoint Security)
+[ 2876 2328][30 Oct 13:28:08][cpservice] service_report_status_to_scm: Reporting start pending
+[ 2876 2328][30 Oct 13:28:08][TracService] IsDisabledInEps: failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:08][TracService] 
+
+[ 2876 2328][30 Oct 13:28:08][TracService] -------------------------------------------------------------
+[ 2876 2328][30 Oct 13:28:08][TracService] 					SERVICE WAS STARTED 						
+[ 2876 2328][30 Oct 13:28:08][TracService] -------------------------------------------------------------
+
+[ 2876 2328][30 Oct 13:28:08][TracService] Software\CheckPoint\TRAC\5.0 exists - no need to backup
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::create: __start__ 13:28:8.227
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __start__ 13:28:8.227
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::init(): __start__ 13:28:8.227
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::load(): __start__ 13:28:8.227
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::loadDefaultParams()
+[ 2876 2328][30 Oct 13:28:08][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __start__ 13:28:8.445
+[ 2876 2328][30 Oct 13:28:08][XmlWrapper] XmlDocument::LoadString: inside
+[ 2876 2328][30 Oct 13:28:11][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2876 2328][30 Oct 13:28:11][XmlWrapper] ConvertStringToBSTR: inside
+[ 2876 2328][30 Oct 13:28:11][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2876 2328][30 Oct 13:28:11][XmlWrapper] XmlDocument::Root: inside
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __start__ 13:28:11.253
+[ 287

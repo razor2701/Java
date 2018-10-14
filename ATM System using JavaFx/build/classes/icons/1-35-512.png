@@ -1,0 +1,323 @@
+[5] = OsMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[6] = ProcessMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[7] = RegMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[8] = ScriptRun
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[9] = SCVMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] ChkPointDllNamesArr[10] = WindowsSecurityMonitor
+[ 2596 3028][30 Oct 13:07:08][LdManInit] plugin WindowsSecurityMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:08][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:08][LdManInit] plugin SCVMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:08][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:08][LdManInit] plugin ScriptRun is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin RegMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin ProcessMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin OsMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin HWMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin HotFixMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin groupmonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin BrowserMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] plugin AntiVirusMonitor is CP plugin, checking signature...
+[ 2596 3028][30 Oct 13:07:09][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2596 3028][30 Oct 13:07:09][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:09][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(WindowsSecurityMonitor.dll): actual_name=WindowsSecurityMonitor.dll, address=02FD0000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 02FD0000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library WindowsSecurityMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 02FD0000 procname: SetISystem address=02FD6D1A
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll, address=045B0000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045B0000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library SCVMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045B0000 procname: SetISystem address=045B366E
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll, address=045D0000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045D0000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library ScriptRun - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045D0000 procname: SetISystem address=045D3824
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll, address=04600000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04600000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library RegMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04600000 procname: SetISystem address=046034AB
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll, address=04D40000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D40000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library ProcessMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D40000 procname: SetISystem address=04D43475
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll, address=04D60000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D60000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library OsMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D60000 procname: SetISystem address=04D64B20
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll, address=04D80000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D80000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library HWMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D80000 procname: SetISystem address=04D83479
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll, address=04DA0000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04DA0000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library HotFixMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04DA0000 procname: SetISystem address=04DA38C8
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll, address=05200000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05200000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library groupmonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05200000 procname: SetISystem address=0520316D
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll, address=05230000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05230000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library BrowserMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05230000 procname: SetISystem address=052340DD
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll, address=05250000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05250000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library AntiVirusMonitor - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05250000 procname: SetISystem address=0525419D
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Loading Library in Load mode
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Lib::Load - Inside...
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll, address=05270000.
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05270000 procname: GetAddress address=00000000
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Library scvproxy - [OK]
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05270000 procname: SetISystem address=05271B9A
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 02FD0000 procname: ConInit address=02FD633B
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library WindowsSecurityMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: WindowsSecurityMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045B0000 procname: ConInit address=045B30FB
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library SCVMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: SCVMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 045D0000 procname: ConInit address=045D2D4F
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library ScriptRun
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: ScriptRun to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04600000 procname: ConInit address=04602F38
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library RegMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: RegMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D40000 procname: ConInit address=04D42F02
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library ProcessMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: ProcessMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D60000 procname: ConInit address=04D6404B
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library OsMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: OsMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04D80000 procname: ConInit address=04D829A4
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library HWMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: HWMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 04DA0000 procname: ConInit address=04DA2DF3
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library HotFixMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: HotFixMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05200000 procname: ConInit address=0520275E
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library groupmonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: groupmonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05230000 procname: ConInit address=05233608
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library BrowserMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: BrowserMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05250000 procname: ConInit address=052536C8
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library AntiVirusMonitor
+[ 2596 3028][30 Oct 13:07:10][PiLib] success initializing scvstub dll
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: AntiVirusMonitor to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][soload] SharedLibGetProc: libptr: 05270000 procname: ConInit address=05271631
+[ 2596 3028][30 Oct 13:07:10][LdManInit] Initializing container for library scvproxy
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PmRegisterPI - Going to insert plugin: scvproxy to name_to_version MAP
+[ 2596 3028][30 Oct 13:07:10][LdManInit] free szChkPointDllNames
+[ 2596 3028][30 Oct 13:07:10][Fwcsssys] FwcssSys::InternalStart - Loader was init succesfully 
+[ 2596 3028][30 Oct 13:07:10][Fwcsssys] FwcssSys::InternalStart - Loader was published succesfully 
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PluginMan::Start - inside
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PluginMan::LoadPlugins - inside
+[ 2596 3028][30 Oct 13:07:10][PluginMan] 	scvproxy - 65536
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::PiExportFunc - Inside
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PluginInit - inside
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::PiInit - Inside
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::PiInit -PisInit - returning error code 0
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PluginMan::LoadPlugins - Total loaded 1 plugins
+[ 2596 3028][30 Oct 13:07:10][PluginMan] Starting: scvproxy
+[ 2596 3028][30 Oct 13:07:10][PluginMan] Check if all dependents are active:
+[ 2596 3028][30 Oct 13:07:10][PluginMan] Active dependents - [OK]
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::PiStart - Inside
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2596 3028][30 Oct 13:07:10][Plugin] Plugin::PiStart - returning error code 0
+[ 2596 3028][30 Oct 13:07:10][PluginMan] PluginMan::PluginStart - returning error from PiStart is: 0
+[ 2596 3028][30 Oct 13:07:10][PluginMan] ---> scvproxy [OK]
+[ 2596 3028][30 Oct 13:07:10][Fwcsssys] FwcssSys::InternalStart - PluginManager was started succesfully 
+[ 2596 2864][30 Oct 13:07:10][TR_OVERSITE] FwcssSys was started succesfully
+[ 2596 2864][30 Oct 13:07:10][Fwcsssys] GetSystem - inside
+[ 2596 2864][30 Oct 13:07:10][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::Create - inside
+[ 2596 2864][30 Oct 13:07:10][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::TrScvComplianceEng  const' - inside
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] Init: __start__ 13:7:10.661
+[ 2596 2864][30 Oct 13:07:10][TR_EVENTS] TR_EVENTS::Register: Added cb 461907 to event 349bd8
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active_site is invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbGetValue: Successfully read (DWORD) key force_policy_reload with value 0
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbSetValue: Trying to open or create registry: Software\CheckPoint\TRAC
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbSetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2596 2864][30 Oct 13:07:10][slim_utils] RaisDbSetValue: Successfully set (DWORD) key force_policy_reload with value 0
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] ConfigurationManager::isLegacyFormat()  return value is false 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TEST: ADDED default gw 1
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] ConfigurationManager::removeParam remove 'display_name', source: '3' 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active site entry resides in the 1 position
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] UpdateTopologyGws: topology changed. refreshing gw list
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] UpdateTopologyGws: gw initial gw was removed from the topology
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] UpdateTopologyGws: deleting gw initial gw
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] UpdateTopologyGws: adding new gw 2 - gscmumcpfw-Cluster
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] num_of_encdomains return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] gw_encdom_id return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw gscmumcpfw-Cluster ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::TrMepResolver::Ctor: entering...
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] neo_always_connected return value false, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] gw_bc_mode return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] display_name return value invpn.thegoldensource.com, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] neo_always_connected_retry return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] roaming_timeout_interval return value 1000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] neo_implicit_disconnect return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] neo_disconnect_when_idle return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] tunnel_idleness_timeout return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: Handle 1, adding gw invpn.thegoldensource.com
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] ConnUpdateStatusInRegistry: SCUIAPI mode is off. No need to publish state
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::SetIsDisableSDLInEncDomain: entering...
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: entering...
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: line read = <securitypolicy version="1" >
+
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute desktop not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute user_group not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute gw not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute connect_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy_mode not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_enable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute policy_type not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute drop_clear_to_enc not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_disable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_ipv6 not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute hotspot_ports not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute display_disable_warning_msg not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2596 2864][30 Oct 13:07:10][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: gwname or policy type does not exist, not enforcing firewall policy
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::isUserLoggedOn: Entering...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: start...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: Running on an NT system
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] FreeSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCGetCurrentShell: Ended
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] isUserLoggedOn: user is logged in, shellId=2084, shellName=explorer.exe 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: user is logged in -> do ConnRestoreProxyReplacement()
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][CONFIG_MANAGER] do_proxy_replacement return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2596 2864][30 Oct 13:07:10][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::ConnRestoreProxyReplacement: Restoring proxy settings
+[ 2596 2864][30 Oct 13:07:10][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Starting ...
+[ 2596 2864][30 Oct 13:07:10][proxy_wrapper] ProxyWrapper::closeThreadIfExist: Starting ...
+[ 2596 2864][30 Oct 13:07:10][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Performing proxy recovery
+[ 2596 2864][30 Oct 13:07:10][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __start__
+[ 2596 2864][30 Oct 13:07:10][proxysupp] proxyConfigurationImage (ctor): Starting...
+[ 2596 2864][30 Oct 13:07:10][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __start__
+[ 2596 2864][30 Oct 13:07:10][proxysupp] MakeFilenames: Starting...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: start...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: already initialized
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StartRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][RunAs] FreeSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StopRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: start...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: already initialized
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StartRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][RunAs] FreeSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StopRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: start...
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: already initialized
+[ 2596 2864][30 Oct 13:07:10][RunAs] SCRunAsInit: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Located PID 2084 for process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetProcessIdFromName: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 2084
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetCurrentShellProcessId: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2596 2864][30 Oct 13:07:10][RunAs] GetSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StartRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][RunAs] FreeSecurityContextInformation: Ended
+[ 2596 2864][30 Oct 13:07:10][RunAs] StopRunAsUser_ex: return (0)
+[ 2596 2864][30 Oct 13:07:10][proxysupp] MakeFilenames: m_proxyState.m_localAutoDetectPacFileName: [C:\Users\Razor\AppData\Local\CPAUTO.tmp]
+[ 2596 2864][30 Oct 13:07:10][proxysupp] MakeFilenames: m_proxyState.m_localURLPacFileName: [C:\Users\Razor\AppData\Local\CPLOCAL.tmp]
+[ 2596 2864][30 Oct 13:07:10][proxysupp] MakeFilenames: m_proxyState.rebuiltPacFileName: [C:\Users\Razor\AppData\Local\CPREBUILT.tmp]
+[ 2596 2864][30 Oct 13:07:10][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __start__
+[ 2596 2864][30 Oct 13:07:10][proxysupp] [WARNING] [proxyConfigurationImage::NotifyInProgressListeners] Nothing to do.
+[ 2596 2864][30 Oct 13:07:10][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __end__ Total: 0 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __end__ Total: 15 milliseconds.
+[ 2596 2864][30 Oct 13:07:10][proxysupp] InitializeConfigurationImage: Starting...
+[ 2596 2864][30 Oct 13:07:10][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2596 2864][30 Oct 13:07:10][proxysupp] IsProxyDetected: Downloading not started
+[ 2596 2864][30 Oct 13:07:10][proxysupp] LoadCurrentProxyConfiguration: Starting...
+[ 2596 2864][30 Oct 13:07:10][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLO

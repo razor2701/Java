@@ -1,0 +1,1193 @@
+w NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] do_proxy_replacement return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::ConnRestoreProxyReplacement: Restoring proxy settings
+[ 2852 376][30 Oct 13:42:34][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Starting ...
+[ 2852 376][30 Oct 13:42:34][proxy_wrapper] ProxyWrapper::closeThreadIfExist: Starting ...
+[ 2852 376][30 Oct 13:42:34][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Performing proxy recovery
+[ 2852 376][30 Oct 13:42:34][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __start__
+[ 2852 376][30 Oct 13:42:34][proxysupp] proxyConfigurationImage (ctor): Starting...
+[ 2852 376][30 Oct 13:42:34][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __start__
+[ 2852 376][30 Oct 13:42:34][proxysupp] MakeFilenames: Starting...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: start...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: already initialized
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StartRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][RunAs] FreeSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StopRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: start...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: already initialized
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StartRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][RunAs] FreeSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StopRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: start...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: already initialized
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StartRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][RunAs] FreeSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] StopRunAsUser_ex: return (0)
+[ 2852 376][30 Oct 13:42:34][proxysupp] MakeFilenames: m_proxyState.m_localAutoDetectPacFileName: [C:\Users\Razor\AppData\Local\CPAUTO.tmp]
+[ 2852 376][30 Oct 13:42:34][proxysupp] MakeFilenames: m_proxyState.m_localURLPacFileName: [C:\Users\Razor\AppData\Local\CPLOCAL.tmp]
+[ 2852 376][30 Oct 13:42:34][proxysupp] MakeFilenames: m_proxyState.rebuiltPacFileName: [C:\Users\Razor\AppData\Local\CPREBUILT.tmp]
+[ 2852 376][30 Oct 13:42:34][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __start__
+[ 2852 376][30 Oct 13:42:34][proxysupp] [WARNING] [proxyConfigurationImage::NotifyInProgressListeners] Nothing to do.
+[ 2852 376][30 Oct 13:42:34][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __end__ Total: 15 milliseconds.
+[ 2852 376][30 Oct 13:42:34][proxysupp] InitializeConfigurationImage: Starting...
+[ 2852 376][30 Oct 13:42:34][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2852 376][30 Oct 13:42:34][proxysupp] IsProxyDetected: Downloading not started
+[ 2852 376][30 Oct 13:42:34][proxysupp] LoadCurrentProxyConfiguration: Starting...
+[ 2852 376][30 Oct 13:42:34][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2852 376][30 Oct 13:42:34][proxysupp] IsProxyDetected: Downloading not started
+[ 2852 376][30 Oct 13:42:34][proxy_API] OsApiWrapper::Inst: creatng instance
+[ 2852 376][30 Oct 13:42:34][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\jsproxy.dll
+[ 2852 376][30 Oct 13:42:34][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\wininet.dll
+[ 2852 376][30 Oct 13:42:34][proxy_API] OS_API::init: Successfully initiated
+[ 2852 376][30 Oct 13:42:34][proxysupp] GetProxyAttributes: Starting... m_proxyState.connectionName is DefaultConnectionSettings
+[ 2852 376][30 Oct 13:42:34][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __start__
+[ 2852 376][30 Oct 13:42:34][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] full path to DAAW.exe: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe 
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] command line: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [DEBUG] [DesktopApplicationApiHandler::exeCommandLine]  params are: 
+m_opaque: 00000000
+m_completion_cb: 00000000
+m_isAsync: 0
+m_useCache: 0
+m_requestTimeout: 10000
+
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] verified. ok.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [DEBUG] [DesktopApplicationApiHandler::_exeCommandLine] dont use cache, delete all previous responses
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry to Delete is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry Deleted - ok
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [INFO] [ThreadArgs::createSynchEvent] m_syncEvent: 000004B8
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread]  about to create thread
+[ 2852 376][30 Oct 13:42:34][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  thread id: 3984
+[ 2852 376][30 Oct 13:42:34][proxysupp] ProxyThreadSharedData::add: adding thread 3984
+[ 2852 376][30 Oct 13:42:34][proxysupp] ProxyThreadData::ProxyThreadData: ctor for thread 3984 
+[ 2852 376][30 Oct 13:42:34][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow -> about to WaitForSingleObject
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __start__
+[ 2852 376][30 Oct 13:42:34][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __end__ Total: 0 milliseconds.
+[ 2852 3984][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __start__
+[ 2852 3984][30 Oct 13:42:34][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 3984][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __start__
+[ 2852 3984][30 Oct 13:42:34][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  about to create process: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 3984][30 Oct 13:42:34][RunAs] SCRunProcessAsUser_withStdoutPipe: start...
+[ 2852 3984][30 Oct 13:42:34][RunAs] hChildStd_OUT_Wr 1216 
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2852 3984][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Ended
+[ 2852 3984][30 Oct 13:42:34][RunAs] SCRunProcessAsUser_withStdoutPipe: Creating process as USER
+[ 2852 3984][30 Oct 13:42:35][RunAs] FreeSecurityContextInformation: Ended
+[ 2852 3984][30 Oct 13:42:35][RunAs] SCRunProcessAsUser_imp: Ended
+[ 2852 3984][30 Oct 13:42:35][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  process created ok -> close handles
+[ 2852 3984][30 Oct 13:42:35][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done closing handles. about to read from child process pipe...
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] dwRead: 491read buf: <OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] ! bSuccess -> break
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done reading from child process pipe
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  totaly read from pipe: 
+<OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __start__
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] new entry is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item not found
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] insert new entry - ok
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __end__ Total: 0 milliseconds.
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __end__ Total: 2668 milliseconds.
+[ 2852 3984][30 Oct 13:42:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  runCommandInNewImpersonateProcess done successfully
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  sync flow -> about to set event
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __start__
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] m_syncEvent: 000004B8
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __end__ Total: 0 milliseconds.
+[ 2852 3984][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __end__ Total: 2668 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - WaitForSingleObject returned
+[ 2852 376][30 Oct 13:42:37][proxysupp] ProxyThreadSharedData::remove: thread 3984 is removed retured 1
+[ 2852 376][30 Oct 13:42:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - information was successfully collected before timeout reached
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] m_syncEvent: 000004B8
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __end__ Total: 2683 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __end__ Total: 2683 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item found
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __start__
+[ 2852 376][30 Oct 13:42:37][XmlWrapper] XmlDocument::LoadString: inside
+[ 2852 376][30 Oct 13:42:37][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2852 376][30 Oct 13:42:37][XmlWrapper] ConvertStringToBSTR: inside
+[ 2852 376][30 Oct 13:42:37][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2852 376][30 Oct 13:42:37][XmlWrapper] XmlDocument::Root: inside
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] deserialize succeeded
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] res->getReturnCode() = 0 res->getErrorDescription() = success
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] got xml from string. the XML response is valid (no error) response
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] final retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __end__ Total: 2683 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __end__ Total: 2683 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][proxysupp] GetProxyAttributes: succeeded to GetProxyAttributesQuery -> procceed
+[ 2852 376][30 Oct 13:42:37][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __start__
+[ 2852 376][30 Oct 13:42:37][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2852 376][30 Oct 13:42:37][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:37][proxysupp] DownloadAutoDetectPACFile: Starting...
+[ 2852 376][30 Oct 13:42:37][] The PRNG was not initialized properly
+[ 2852 376][30 Oct 13:42:40][MessageLoop] MessageLoop::ExecuteRoutineInNewThread: thread created successfully
+[ 2852 376][30 Oct 13:42:40][proxysupp] DownloadAutoDetectPACFile: downloading started
+[ 2852 376][30 Oct 13:42:40][proxysupp] LoadCurrentProxyConfiguration: Completed with status = true.
+[ 2852 376][30 Oct 13:42:40][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __end__ Total: 6770 milliseconds.
+[ 2852 3760][30 Oct 13:42:40][proxysupp] AsynchDownloadAutoConfigThread: Starting with opaque (4246238) ...
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: entering...
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ccc_port return value 443, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] product_name return value TRAC, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ccc_idle_timeout return value 30000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] automatic_mep_topology return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: ERROR: no primary gw found
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: gw ip address is 119.226.62.122
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo:initialize: entered!042985E0
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo::read_gray_list_timeout: gray list timeout  in Minutes: 120.
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo::read_gray_list: failed
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] hello_protocol_ver return value 100, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: First call to Init. Creating the CCC instance
+[ 2852 376][30 Oct 13:42:40][talkhttps] ATalkHttps::ATalkHttps will not reuse
+[ 2852 376][30 Oct 13:42:40][talkhttps] ATalkHttps::resetHttpVersion: set default version of HTTP to 1.0
+[ 2852 376][30 Oct 13:42:40][TalkCCC] inside talkccc::talkccc
+[ 2852 376][30 Oct 13:42:40][TalkCCC] inside talkccc:Init
+[ 2852 376][30 Oct 13:42:40][TalkCCC] talkccc::SetGatewayInfo: called 
+[ 2852 376][30 Oct 13:42:40][TalkCCC] GICopyHelper: start
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo:initialize: entered!04298F50
+[ 2852 376][30 Oct 13:42:40][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2852 376][30 Oct 13:42:40][TalkCCC] GICopyHelper: end
+[ 2852 376][30 Oct 13:42:40][TalkCCC] GICopyHelper: start
+[ 2852 376][30 Oct 13:42:40][TalkCCC] GICopyHelper: NULL source
+[ 2852 376][30 Oct 13:42:40][TalkCCC] talkccc::SetGatewayInfo: finished
+[ 2852 376][30 Oct 13:42:40][TalkCCC] talkccc::talkccc ssl client cert will not be used
+[ 2852 376][30 Oct 13:42:40][talkhttps] SetUseClientCert: false
+[ 2852 376][30 Oct 13:42:40][talkssl] talkssl::talkssl(): entered with chunk=65536, opaque=4289060, link_established=4df852, link_failure=4df860, packet_receive=4df872, verify_gw=4df888
+[ 2852 376][30 Oct 13:42:40][talkssl] talkssl::set_sslalg:  setting ssl alg to 1
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] hotspot_detection_enabled return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TalkCCC] talkccc::set_IdleTimeout: inside
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] def_gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TrConnManager::InitLocationAwareness: portal_addr = 119.226.62.122
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] location_awareness_enabled return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][location_awareness] LocationAwareness::SetAwarenessParams: Setting Location Awareness parameters
+[ 2852 376][30 Oct 13:42:40][location_awareness] LocationAwareness::SetAwarenessParams: checkLocation = false
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ignore_sdl_in_encdomain return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitLocationAwareness: unregister for network notification - no use to update sdl on client location
+[ 2852 376][30 Oct 13:42:40][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: m_callback_vec.size=0
+[ 2852 376][30 Oct 13:42:40][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: callback not found, do nothing
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: calling reconf for logs upload
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] fw_log_upload_enable return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_FIREWALL] UploadLogsComponent::reconf: active site has log upload enabled, init  m_logConf
+[ 2852 376][30 Oct 13:42:40][TR_FIREWALL] UploadLogsComponent::reconf: logFolder:D:\VPN\CHECK_POINT_VPN_CLIENT\,  gwname:invpn.thegoldensource.com
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] next_log_file_to_upload_index return value -1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] number_of_tracker_log_files_limit return value 8, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] tracker_log_file_size_limit return value 250000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] remove_log_files_after_sending return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] write_pkt_alert_log_in_chunks return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x00CAB8D8): __start__
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x00CAB8D8): __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::StopLogUploading] __start__
+[ 2852 376][30 Oct 13:42:40][rais] [WARNING] [LogDistributer::StopLogUploading] stop without start uploading
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::StopLogUploading] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __start__
+[ 2852 376][30 Oct 13:42:40][rais] [INFO] [LogDistributer::ConfigurationHasChanged] new conf gw is invpn.thegoldensource.com, old conf gw is invpn.thegoldensource.com
+[ 2852 376][30 Oct 13:42:40][rais] [INFO] [LogFiler::Instance(s)] create logFiler 
+[ 2852 376][30 Oct 13:42:40][rais] [ERROR] [LogFiler::FlushBufferToFile] longConf is NULL
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x00CAB998): __start__
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x00CAB998): __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __start__
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:40][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __end__ Total: 0 milliseconds.
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: checking SCV hash and file.
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: vista or above detected, set bConsiderServiceJustStarted=true
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] about to check if the  scv hash is empty...
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] scv hash is empty - probably right after installation -> do not load scv
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] Init: __end__ 13:42:40.973. Total time - 6833 milliseconds
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::Init: called
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] client_policies return value trac_client_1&#range&#mep&#desktop&#user_groups&#scv&#dns&#, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: gateway = gscmumcpfw-Cluster
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: gateway = NULL gateway
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:40][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:40][] cpii_init: LoadLibrary('Ws2_32.dll') returned 757b0000
+
+[ 2852 376][30 Oct 13:42:40][] cpii_init: LoadLibrary('iphlpapi.dll') returned 74460000
+
+[ 2852 376][30 Oct 13:42:40][om] om_mngr_recovery_cleanup: called
+[ 2852 376][30 Oct 13:42:40][om] om_utils_clean_obsolete_dns_suffixes: called
+[ 2852 376][30 Oct 13:42:40][om] om_utils_open_product_ver_key : failed to open product key: The system cannot find the file specified.
+[ 2852 376][30 Oct 13:42:40][om] om_utils_open_registry_space : failed to open product key
+[ 2852 376][30 Oct 13:42:40][om] om_utils_clean_obsolete_dns_suffixes: failed open vna registry space
+[ 2852 376][30 Oct 13:42:40][om] om_mngr_init: used for product 2
+[ 2852 376][30 Oct 13:42:40][om] om_mngr_init: completed per product initialization
+[ 2852 376][30 Oct 13:42:40][vna] vna_cfgmgr_init: interface configuration timeout set to 40 seconds
+[ 2852 376][30 Oct 13:42:40][vna] vna_cfgmgr_init: poll for interface change (yes every 500 msec)
+[ 2852 376][30 Oct 13:42:40][vna] vna_cfgmgr_init: kernel traps - yes
+[ 2852 376][30 Oct 13:42:40][vna] vna_cfgmgr_init: for product Apollo
+[ 2852 376][30 Oct 13:42:40][] _cpNTlock: created and obtained mutex Devicevna_ap
+[ 2852 376][30 Oct 13:42:40][] fwkmsg_init: initialized on fd 1260 buffer size 0 bytes
+[ 2852 376][30 Oct 13:42:40][vna] wmi_utils_initial_init: Initializing COM
+[ 2852 376][30 Oct 13:42:40][vna] vna_cfgmgr_init: completed ok 
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <         0.0.0.0,          0.0.0.0,          0.0.0.0, 0x0000000b, 20>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <       127.0.0.0,        127.0.0.0,        127.0.0.0, 0x00000001, 306>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <       127.0.0.1,        127.0.0.1,        127.0.0.1, 0x00000001, 306>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load < 127.255.255.255,  127.255.255.255,  127.255.255.255, 0x00000001, 306>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <     192.168.1.0,      192.168.1.0,      192.168.1.0, 0x0000000b, 276>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <     192.168.1.7,      192.168.1.7,      192.168.1.7, 0x0000000b, 276>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <   192.168.1.255,    192.168.1.255,    192.168.1.255, 0x0000000b, 276>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x00000001, 306>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x0000000b, 276>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x00000001, 306>
+[ 2852 376][30 Oct 13:42:40][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x0000000b, 276>
+[ 2852 376][30 Oct 13:42:40][om] om_mngr_init: completed ok 
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2852 376][30 Oct 13:42:40][TR_CPLOGON] LoadDLL: Not in scuiapi mode not loading LogonAgentAPI.dll
+[ 2852 376][30 Oct 13:42:40][TR_CONN_MANAGER] TrConnManager::GetSCUIAPIMode: mbSCUIAPIMode is 0
+[ 2852 376][30 Oct 13:42:40][TR_OVERSITE] TR_OVERSITE::Create: TrOversite inited OK
+[ 2852 376][30 Oct 13:42:40][CONFIG_MANAGER] debug_mode_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:18][TracService] ServiceMain: Entered service's main entry point (Check Point Endpoint Security)
+[ 2916 2984][30 Oct 13:46:18][cpservice] service_report_status_to_scm: Reporting start pending
+[ 2916 2984][30 Oct 13:46:18][TracService] IsDisabledInEps: failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:18][TracService] 
+
+[ 2916 2984][30 Oct 13:46:18][TracService] -------------------------------------------------------------
+[ 2916 2984][30 Oct 13:46:18][TracService] 					SERVICE WAS STARTED 						
+[ 2916 2984][30 Oct 13:46:18][TracService] -------------------------------------------------------------
+
+[ 2916 2984][30 Oct 13:46:18][TracService] Software\CheckPoint\TRAC\5.0 exists - no need to backup
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::create: __start__ 13:46:18.470
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __start__ 13:46:18.470
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::init(): __start__ 13:46:18.470
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::load(): __start__ 13:46:18.470
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::loadDefaultParams()
+[ 2916 2984][30 Oct 13:46:18][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __start__ 13:46:18.564
+[ 2916 2984][30 Oct 13:46:18][XmlWrapper] XmlDocument::LoadString: inside
+[ 2916 2984][30 Oct 13:46:19][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2916 2984][30 Oct 13:46:19][XmlWrapper] ConvertStringToBSTR: inside
+[ 2916 2984][30 Oct 13:46:19][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2916 2984][30 Oct 13:46:19][XmlWrapper] XmlDocument::Root: inside
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __start__ 13:46:19.531
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] Saveing to trac.conf.lastgood
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __end__ 13:46:19.547. Total time - 16 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __end__ 13:46:19.547. Total time - 983 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __start__ 13:46:19.547
+[ 2916 2984][30 Oct 13:46:19][FileManager] FileManager::openFile: file does not exist
+[ 2916 2984][30 Oct 13:46:19][FileManager] FileManager::readFile: error occured while opening the file
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __end__ 13:46:19.547. Total time - 0 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __start__ 13:46:19.547
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __end__ 13:46:19.547. Total time - 0 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::load(): __end__ 13:46:19.547. Total time - 1077 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::init(): __end__ 13:46:19.547. Total time - 1077 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __end__ 13:46:19.547. Total time - 1077 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] ConfigurationManager::create: __end__ 13:46:19.547. Total time - 1077 milliseconds
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:19][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:19][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] langpack_filename return value LangPack1.xml, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:19][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:19][CONFIG_MANAGER] language_index return value 0, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:19][TR_OVERSITE] TR_OVERSITE::Create: Successfully loaded localization engine.
+[ 2916 2984][30 Oct 13:46:19][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 2916 2984][30 Oct 13:46:19][proxy_wrapper] ProxyWrapper::Create: Starting ...
+[ 2916 2984][30 Oct 13:46:19][TR_OVERSITE] TR_OVERSITE::Create: about to set proxy connections start / end CB
+[ 2916 2984][30 Oct 13:46:19][proxy_authentication] ProxyWrapper::setCloseProxyConnectionFwCb: done - 4427261
+[ 2916 2984][30 Oct 13:46:19][proxy_authentication] ProxyWrapper::setStartProxyConnectionFwCb: done - 4427232
+[ 2916 2984][30 Oct 13:46:19][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::Init: entering...
+[ 2916 2984][30 Oct 13:46:19][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:19][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:19][slim_utils] RaisDbGetValue: Successfully read (REG_SZ) key client_sub_type with value EndpointSecurity
+[ 2916 2984][30 Oct 13:46:19][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::isOfficeModeIsDisabledByUser: entering...
+[ 2916 2984][30 Oct 13:46:19][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:19][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: OM is not disabled in registry -> return false
+[ 2916 2984][30 Oct 13:46:19][TR_FEATURE_MANAGER] TrFeatureManager::Init: Office mode is NOT disabled by user -> enable ENDPOINT_SECURITY_TYPE features
+[ 2916 2984][30 Oct 13:46:19][TR_FEATURE_MANAGER] TrFeatureManager::Init: mOfficeModeEnable=true,mSplitDnsEnable=false,mLocationAwarenessEnable=true,mAlwaysConnectEnable=true,mRoamingEnable=true,mHotspotDetectionEnable=true,mFirewallEnable=true,mScvEnable=true
+[ 2916 2984][30 Oct 13:46:19][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: entering...
+[ 2916 2984][30 Oct 13:46:19][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: loading library: C:\Windows\system32\FirewallMonitor.dll
+[ 2916 2984][30 Oct 13:46:24][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_initLibrary returned true
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: firewall monitor initialized successfully
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::InitFirewallMonitor: lpFwMonitor_SetFtpStatus(true) returned true
+[ 2916 2984][30 Oct 13:46:25][messaging] messaging::setup: created a new TCP multi-pipe
+[ 2916 2984][30 Oct 13:46:25][TR_AUTH_MANAGER] TrAuthCache::TrAuthCache: Ctor
+[ 2916 2984][30 Oct 13:46:25][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:25][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:25][TR_EVENTS] TR_EVENTS::Register: Added cb 440370 to event 9e9b60
+[ 2916 2984][30 Oct 13:46:25][TR_SRV2CL] TR_SRV2CL::RegisterSupplyCredsCB: Registering supply credentials callback
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [LogonStatusProvider::Init] __start__
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [LogonStatusProvider::Init] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:25][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::TrClSettingManager: called
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43cf2d for message 4001
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d1e5 for message 4002
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43e266 for message 4003
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d327 for message 5001
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43db15 for message 1011
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 43d466 for message 1012
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 451b85 for message 1000
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 452fc2 for message 1001
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 453e98 for message 1002
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 453ec6 for message 1009
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 454342 for message 1003
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 45fb8e for message 1005
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 460455 for message 1006
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4584e2 for message 1007
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4609b8 for message 1008
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4539c9 for message 1010
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 454507 for message 1004
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 452f13 for message 1013
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 4529bd for message 1014
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 439912 for message 0
+[ 2916 2984][30 Oct 13:46:25][TR_CL2SRV_X] TR_CL2SRV_X::RegisterCb: Registered cb 439988 for message 1
+[ 2916 2984][30 Oct 13:46:25][TrComInf] TrComInf::TrComInfInit: __start__ 13:46:25.225
+[ 2916 2984][30 Oct 13:46:25][messaging] messaging::add_msg: added a new cb: msg - 1
+[ 2916 2984][30 Oct 13:46:25][messaging] messaging::add_msg: added a new cb: msg - 2
+[ 2916 2984][30 Oct 13:46:25][tcpserver] TcpMultiPipe::socket_init: Created m_serverfd: 0x290 socket
+[ 2916 2984][30 Oct 13:46:25][tcpserver] TcpMultiPipe::socket_init: setsockopt - ok!
+[ 2916 2984][30 Oct 13:46:25][tcpserver] TcpMultiPipe::socket_init: m_serverfd: 0x290 socket bound and listening
+[ 2916 2984][30 Oct 13:46:25][tcpserver] TcpMultiPipe::socket_init: port is 7778
+[ 2916 2984][30 Oct 13:46:25][tcpserver] TcpMultiPipe::pipe_if_server_init: Successfully initialized SOCKET on port 7778
+[ 2916 2984][30 Oct 13:46:25][messaging] messaging::init: Successfully initialized pipe
+[ 2916 2984][30 Oct 13:46:25][TrComInf] TrComInf::TrComInfInit: __end__ 13:46:25.225. Total time - 0 milliseconds
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::Create: entering...
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::ShouldFirewallFeatureBeActive: entering...
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [TrUtils_isSCUIAPIMode] __start__
+[ 2916 2984][30 Oct 13:46:25][TR_UTILS] [ERROR] [TrUtils_isSCUIAPIMode]  failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [TrUtils_isSCUIAPIMode] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [TrUtils_isSAexist] __start__
+[ 2916 2984][30 Oct 13:46:25][TR_UTILS] [ERROR] [TrUtils_isSAexist] failed opening registry key - SA does not exist
+[ 2916 2984][30 Oct 13:46:25][TR_UTILS] [COVERAGE] [TrUtils_isSAexist] bSAexist is:0
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [TrUtils_isSAexist] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::ShouldFirewallFeatureBeActive: firewall may be in active mode (both SCUIAPIMode and SA mode are disabled) -> activate it
+[ 2916 2984][30 Oct 13:46:25][DESKTOP] DESKTOP::CDesktopPolicyConvertor::Ctor: entering...
+[ 2916 2984][30 Oct 13:46:25][DESKTOP] CDesktopPolicyConvertor::Ctor: this = 60096240, num icmp protocol types=16, m_AllIcmpProtocols.size=16
+[ 2916 2984][30 Oct 13:46:25][DESKTOP] CDesktopPolicyConvertor::Ctor: num ip protocol types=138
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] CFirewallWrapper::Ctor: entering...
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] TrFW_IsWow64: entering...
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] IsVistaOrAbove: vista detected
+[ 2916 2984][30 Oct 13:46:25][SCV3RD_PARTY] SCV3RD_PARTY::Scv3rdPartyImpl: entering...
+[ 2916 2984][30 Oct 13:46:25][TR_FIREWALL] UploadLogsComponent::Inst: create UploadLogsComponent instance
+[ 2916 2984][30 Oct 13:46:25][rais] [INFO] [LogDistributer::Instance(s)] create log distributer
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [LogDistributer::LogDistributer] __start__
+[ 2916 2984][30 Oct 13:46:25][rais] [COVERAGE] [LogDistributer::LogDistributer] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:25][TR_OVERSITE] SCVPlugins registry exist - going to enforce SCV
+[ 2916 2984][30 Oct 13:46:25][TR_OVERSITE] Configuration Manager was created successfully
+[ 2916 2984][30 Oct 13:46:25][ConfData] ConfData::Initialize data
+[ 2916 2984][30 Oct 13:46:25][ConfData] Initialize data : Plugins path in registry: SOFTWARE\CheckPoint\TRAC\Plugins
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] ConfData::Append_PI_Info_List - inside...
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [scvproxy] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfData] Initialize data : Plugins path in registry: SOFTWARE\CheckPoint\TRAC\Plugins
+[ 2916 2984][30 Oct 13:46:25][ConfData] Initialize data : SCV Plugins path in registry: SOFTWARE\CheckPoint\TRAC\SCV\Plugins
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] ConfData::Append_PI_Info_List - inside...
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [AntiVirusMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [BrowserMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [groupmonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [HotFixMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [HWMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [OsMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [ProcessMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [RegMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [ScriptRun] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [SCVMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Reading registry [WindowsSecurityMonitor] Plugin
+[ 2916 2984][30 Oct 13:46:25][ConfDataPIInf] Plugin version [1.0]
+[ 2916 2984][30 Oct 13:46:25][TR_OVERSITE] Configuration Data was initialized successfully
+[ 2916 2984][30 Oct 13:46:25][WatchPoint Fwcsssys PluginMan] FwcssSys::Create
+[ 2916 2984][30 Oct 13:46:25][TR_OVERSITE] FwcssSys was created successfully
+[ 2916 2984][30 Oct 13:46:25][TR_OVERSITE] Going to start FwcssSys
+[ 2916 3128][30 Oct 13:46:25][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart Inside
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] FwcssSys::InternalStart - ISystem was created successfully
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] FwcssSys::InternalStart - ISystem was publisheded successfully
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] FwcssSys::InternalStart - ILdMan was created successfully
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] FwcssSys::InternalStart - Plugin Manager was created successfully
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] FwcssSys::InternalStart - PluginMan published successfully
+[ 2916 3128][30 Oct 13:46:25][Fwcsssys] ScvPluginMan created succesfully
+[ 2916 3128][30 Oct 13:46:25][WatchPoint Fwcsssys PluginMan] FwcssSys::InternalStart - SCV PluginMan was published successfully
+[ 2916 3128][30 Oct 13:46:25][LdManInit] LdMan::Init - inside
+[ 2916 3128][30 Oct 13:46:25][LdManInit] Array of plugins info has 12 entries
+[ 2916 3128][30 Oct 13:46:25][LdManInit] CONFID_PRIV_CP_SCV_DLL is AntiVirusMonitor;BrowserMonitor;groupmonitor;HotFixMonitor;HWMonitor;OsMonitor;ProcessMonitor;RegMonitor;ScriptRun;SCVMonitor;WindowsSecurityMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[0] = AntiVirusMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[1] = BrowserMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[2] = groupmonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[3] = HotFixMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[4] = HWMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[5] = OsMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[6] = ProcessMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[7] = RegMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[8] = ScriptRun
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[9] = SCVMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] ChkPointDllNamesArr[10] = WindowsSecurityMonitor
+[ 2916 3128][30 Oct 13:46:25][LdManInit] plugin WindowsSecurityMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:29][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:29][LdManInit] plugin SCVMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:30][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:30][LdManInit] plugin ScriptRun is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:30][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:30][LdManInit] plugin RegMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:31][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:31][LdManInit] plugin ProcessMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:31][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:31][LdManInit] plugin OsMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:31][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:31][LdManInit] plugin HWMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:32][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:32][LdManInit] plugin HotFixMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:32][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:32][LdManInit] plugin groupmonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:32][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:32][LdManInit] plugin BrowserMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:32][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:32][LdManInit] plugin AntiVirusMonitor is CP plugin, checking signature...
+[ 2916 3128][30 Oct 13:46:33][LdManInit] VerifySignature: WinVerifyTust succeeded
+[ 2916 3128][30 Oct 13:46:33][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:33][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(WindowsSecurityMonitor.dll): actual_name=WindowsSecurityMonitor.dll, address=02F50000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 02F50000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library WindowsSecurityMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 02F50000 procname: SetISystem address=02F56D1A
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScvMonitor.dll, address=03020000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 03020000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library SCVMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 03020000 procname: SetISystem address=0302366E
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ScriptRun.dll, address=04B80000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04B80000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library ScriptRun - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04B80000 procname: SetISystem address=04B83824
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\RegMonitor.dll, address=04BF0000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04BF0000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library RegMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04BF0000 procname: SetISystem address=04BF34AB
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\ProcessMonitor.dll, address=04C50000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C50000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library ProcessMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C50000 procname: SetISystem address=04C53475
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\OsMonitor.dll, address=04C70000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C70000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library OsMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C70000 procname: SetISystem address=04C74B20
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HWMonitor.dll, address=04C90000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C90000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library HWMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04C90000 procname: SetISystem address=04C93479
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\HotFixMonitor.dll, address=04CB0000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CB0000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library HotFixMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CB0000 procname: SetISystem address=04CB38C8
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\GroupMonitor.dll, address=04CD0000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CD0000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library groupmonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CD0000 procname: SetISystem address=04CD316D
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\BrowserMonitor.dll, address=04CF0000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CF0000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library BrowserMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 04CF0000 procname: SetISystem address=04CF40DD
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\AntiVirusMonitor.dll, address=05250000.
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 05250000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Library AntiVirusMonitor - [OK]
+[ 2916 3128][30 Oct 13:46:35][soload] SharedLibGetProc: libptr: 05250000 procname: SetISystem address=0525419D
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Loading Library in Load mode
+[ 2916 3128][30 Oct 13:46:35][LdManInit] Lib::Load - Inside...
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibLoad(D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll): actual_name=D:\VPN\CHECK_POINT_VPN_CLIENT\proxystub.dll, address=05270000.
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 05270000 procname: GetAddress address=00000000
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Library scvproxy - [OK]
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 05270000 procname: SetISystem address=05271B9A
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 02F50000 procname: ConInit address=02F5633B
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library WindowsSecurityMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: WindowsSecurityMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 03020000 procname: ConInit address=030230FB
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library SCVMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: SCVMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04B80000 procname: ConInit address=04B82D4F
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library ScriptRun
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: ScriptRun to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04BF0000 procname: ConInit address=04BF2F38
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library RegMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: RegMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04C50000 procname: ConInit address=04C52F02
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library ProcessMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: ProcessMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04C70000 procname: ConInit address=04C7404B
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library OsMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: OsMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04C90000 procname: ConInit address=04C929A4
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library HWMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: HWMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04CB0000 procname: ConInit address=04CB2DF3
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library HotFixMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: HotFixMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04CD0000 procname: ConInit address=04CD275E
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library groupmonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: groupmonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 04CF0000 procname: ConInit address=04CF3608
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library BrowserMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: BrowserMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 05250000 procname: ConInit address=052536C8
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library AntiVirusMonitor
+[ 2916 3128][30 Oct 13:46:37][PiLib] success initializing scvstub dll
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: AntiVirusMonitor to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][soload] SharedLibGetProc: libptr: 05270000 procname: ConInit address=05271631
+[ 2916 3128][30 Oct 13:46:37][LdManInit] Initializing container for library scvproxy
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PmRegisterPI - Going to insert plugin: scvproxy to name_to_version MAP
+[ 2916 3128][30 Oct 13:46:37][LdManInit] free szChkPointDllNames
+[ 2916 3128][30 Oct 13:46:37][Fwcsssys] FwcssSys::InternalStart - Loader was init succesfully 
+[ 2916 3128][30 Oct 13:46:37][Fwcsssys] FwcssSys::InternalStart - Loader was published succesfully 
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PluginMan::Start - inside
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PluginMan::LoadPlugins - inside
+[ 2916 3128][30 Oct 13:46:37][PluginMan] 	scvproxy - 65536
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::PiExportFunc - Inside
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PluginInit - inside
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::PiInit - Inside
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::PiInit -PisInit - returning error code 0
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PluginMan::LoadPlugins - Total loaded 1 plugins
+[ 2916 3128][30 Oct 13:46:37][PluginMan] Starting: scvproxy
+[ 2916 3128][30 Oct 13:46:37][PluginMan] Check if all dependents are active:
+[ 2916 3128][30 Oct 13:46:37][PluginMan] Active dependents - [OK]
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::PiStart - Inside
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::MAPFunc - Returning error 0
+[ 2916 3128][30 Oct 13:46:37][Plugin] Plugin::PiStart - returning error code 0
+[ 2916 3128][30 Oct 13:46:37][PluginMan] PluginMan::PluginStart - returning error from PiStart is: 0
+[ 2916 3128][30 Oct 13:46:37][PluginMan] ---> scvproxy [OK]
+[ 2916 3128][30 Oct 13:46:37][Fwcsssys] FwcssSys::InternalStart - PluginManager was started succesfully 
+[ 2916 2984][30 Oct 13:46:37][TR_OVERSITE] FwcssSys was started succesfully
+[ 2916 2984][30 Oct 13:46:37][Fwcsssys] GetSystem - inside
+[ 2916 2984][30 Oct 13:46:37][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::Create - inside
+[ 2916 2984][30 Oct 13:46:37][TR_SCVCOMPLIANCEENG] TrScvComplianceEng::TrScvComplianceEng  const' - inside
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] Init: __start__ 13:46:37.799
+[ 2916 2984][30 Oct 13:46:37][TR_EVENTS] TR_EVENTS::Register: Added cb 461907 to event 9e9bd8
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active_site is invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbGetValue: Successfully read (DWORD) key force_policy_reload with value 0
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbSetValue: Trying to open or create registry: Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbSetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2916 2984][30 Oct 13:46:37][slim_utils] RaisDbSetValue: Successfully set (DWORD) key force_policy_reload with value 0
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] ConfigurationManager::isLegacyFormat()  return value is false 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TEST: ADDED default gw 1
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] ConfigurationManager::removeParam remove 'display_name', source: '3' 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] ConfigurationManager::save()
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: active site entry resides in the 1 position
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] UpdateTopologyGws: topology changed. refreshing gw list
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] UpdateTopologyGws: gw initial gw was removed from the topology
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] UpdateTopologyGws: deleting gw initial gw
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] UpdateTopologyGws: adding new gw 2 - gscmumcpfw-Cluster
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] num_of_encdomains return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] gw_encdom_id return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw gscmumcpfw-Cluster ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::TrMepResolver::Ctor: entering...
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] neo_always_connected return value false, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] gw_bc_mode return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] display_name return value invpn.thegoldensource.com, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] neo_always_connected_retry return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] roaming_timeout_interval return value 1000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] neo_implicit_disconnect return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] neo_disconnect_when_idle return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] tunnel_idleness_timeout return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: Handle 1, adding gw invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] ConnUpdateStatusInRegistry: SCUIAPI mode is off. No need to publish state
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::SetIsDisableSDLInEncDomain: entering...
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: entering...
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: line read = <securitypolicy version="1" >
+
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute desktop not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute user_group not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute gw not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute connect_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy_mode not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_enable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute policy_type not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute drop_clear_to_enc not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_disable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_ipv6 not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute hotspot_ports not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute display_disable_warning_msg not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2916 2984][30 Oct 13:46:37][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: gwname or policy type does not exist, not enforcing firewall policy
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::isUserLoggedOn: Entering...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: start...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: Running on an NT system
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] FreeSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCGetCurrentShell: Ended
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] isUserLoggedOn: user is logged in, shellId=1904, shellName=explorer.exe 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: user is logged in -> do ConnRestoreProxyReplacement()
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][CONFIG_MANAGER] do_proxy_replacement return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:37][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::ConnRestoreProxyReplacement: Restoring proxy settings
+[ 2916 2984][30 Oct 13:46:37][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Starting ...
+[ 2916 2984][30 Oct 13:46:37][proxy_wrapper] ProxyWrapper::closeThreadIfExist: Starting ...
+[ 2916 2984][30 Oct 13:46:37][proxy_wrapper] ProxyWrapper::RestoreProxySetting: Performing proxy recovery
+[ 2916 2984][30 Oct 13:46:37][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __start__
+[ 2916 2984][30 Oct 13:46:37][proxysupp] proxyConfigurationImage (ctor): Starting...
+[ 2916 2984][30 Oct 13:46:37][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __start__
+[ 2916 2984][30 Oct 13:46:37][proxysupp] MakeFilenames: Starting...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: start...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: already initialized
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StartRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][RunAs] FreeSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StopRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: start...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: already initialized
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StartRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][RunAs] FreeSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StopRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: start...
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: already initialized
+[ 2916 2984][30 Oct 13:46:37][RunAs] SCRunAsInit: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2916 2984][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StartRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][RunAs] FreeSecurityContextInformation: Ended
+[ 2916 2984][30 Oct 13:46:37][RunAs] StopRunAsUser_ex: return (0)
+[ 2916 2984][30 Oct 13:46:37][proxysupp] MakeFilenames: m_proxyState.m_localAutoDetectPacFileName: [C:\Users\Razor\AppData\Local\CPAUTO.tmp]
+[ 2916 2984][30 Oct 13:46:37][proxysupp] MakeFilenames: m_proxyState.m_localURLPacFileName: [C:\Users\Razor\AppData\Local\CPLOCAL.tmp]
+[ 2916 2984][30 Oct 13:46:37][proxysupp] MakeFilenames: m_proxyState.rebuiltPacFileName: [C:\Users\Razor\AppData\Local\CPREBUILT.tmp]
+[ 2916 2984][30 Oct 13:46:37][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __start__
+[ 2916 2984][30 Oct 13:46:37][proxysupp] [WARNING] [proxyConfigurationImage::NotifyInProgressListeners] Nothing to do.
+[ 2916 2984][30 Oct 13:46:37][proxysupp] [COVERAGE] [proxyConfigurationImage::NotifyInProgressListeners] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][proxysupp] [COVERAGE] [proxyConfigurationImage::proxyConfigurationImage(s)] __end__ Total: 16 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][proxysupp] InitializeConfigurationImage: Starting...
+[ 2916 2984][30 Oct 13:46:37][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2916 2984][30 Oct 13:46:37][proxysupp] IsProxyDetected: Downloading not started
+[ 2916 2984][30 Oct 13:46:37][proxysupp] LoadCurrentProxyConfiguration: Starting...
+[ 2916 2984][30 Oct 13:46:37][proxysupp] IsProxyDetected: Starting... m_proxyState.m_autoDetectFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT', m_proxyState.m_PACFileLoadedOk - 'FILE_DOWNLOAD_NOT_INIT'
+[ 2916 2984][30 Oct 13:46:37][proxysupp] IsProxyDetected: Downloading not started
+[ 2916 2984][30 Oct 13:46:37][proxy_API] OsApiWrapper::Inst: creatng instance
+[ 2916 2984][30 Oct 13:46:37][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\jsproxy.dll
+[ 2916 2984][30 Oct 13:46:37][rais_strfuncs] AddFullPath: dll full path is C:\Windows\system32\wininet.dll
+[ 2916 2984][30 Oct 13:46:37][proxy_API] OS_API::init: Successfully initiated
+[ 2916 2984][30 Oct 13:46:37][proxysupp] GetProxyAttributes: Starting... m_proxyState.connectionName is DefaultConnectionSettings
+[ 2916 2984][30 Oct 13:46:37][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __start__
+[ 2916 2984][30 Oct 13:46:37][proxy-state] [COVERAGE] [IEProxyState::IEProxyState] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] full path to DAAW.exe: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe 
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::getDaawCommandPrefix] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] command line: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::composeGetProxyAttributesCmd] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::exeCommandLine]  params are: 
+m_opaque: 00000000
+m_completion_cb: 00000000
+m_isAsync: 0
+m_useCache: 0
+m_requestTimeout: 10000
+
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] verified. ok.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::initAndVerify] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::_exeCommandLine] dont use cache, delete all previous responses
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry to Delete is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] entry Deleted - ok
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiCache::Delete] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [INFO] [ThreadArgs::createSynchEvent] m_syncEvent: 000004B8
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::createSynchEvent] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread]  about to create thread
+[ 2916 2984][30 Oct 13:46:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  thread id: 3768
+[ 2916 2984][30 Oct 13:46:37][proxysupp] ProxyThreadSharedData::add: adding thread 3768
+[ 2916 2984][30 Oct 13:46:37][proxysupp] ProxyThreadData::ProxyThreadData: ctor for thread 3768 
+[ 2916 2984][30 Oct 13:46:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow -> about to WaitForSingleObject
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __start__
+[ 2916 2984][30 Oct 13:46:37][DAAH] [COVERAGE] [ThreadArgs::~getSyncEvent] __end__ Total: 0 milliseconds.
+[ 2916 3768][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __start__
+[ 2916 3768][30 Oct 13:46:37][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 3768][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __start__
+[ 2916 3768][30 Oct 13:46:37][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  about to create process: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 3768][30 Oct 13:46:37][RunAs] SCRunProcessAsUser_withStdoutPipe: start...
+[ 2916 3768][30 Oct 13:46:37][RunAs] hChildStd_OUT_Wr 1216 
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Located PID 1904 for process
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetProcessIdFromName: Ended
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1904
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetCurrentShellProcessId: Ended
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2916 3768][30 Oct 13:46:37][RunAs] GetSecurityContextInformation: Ended
+[ 2916 3768][30 Oct 13:46:37][RunAs] SCRunProcessAsUser_withStdoutPipe: Creating process as USER
+[ 2916 3768][30 Oct 13:46:38][RunAs] FreeSecurityContextInformation: Ended
+[ 2916 3768][30 Oct 13:46:38][RunAs] SCRunProcessAsUser_imp: Ended
+[ 2916 3768][30 Oct 13:46:38][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  process created ok -> close handles
+[ 2916 3768][30 Oct 13:46:38][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done closing handles. about to read from child process pipe...
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] dwRead: 491read buf: <OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] ! bSuccess -> break
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  done reading from child process pipe
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess]  totaly read from pipe: 
+<OBJECT name="get proxy attributes" type="DaawGetProxyAttributesResponse">
+	<Field name="DaawBaseResponse_res" value="0"></Field>
+	<Field name="DaawBaseResponse_error_description" value="success"></Field>
+	<OBJECT name="ie_proxy_state_desc" type="IEProxyState">
+		<Field name="proxy_flags" value="9"></Field>	
+		<Field name="Proxy_Url" value=""></Field>	
+		<Field name="Proxy_Bypass" value=""></Field>	
+		<Field name="Proxy_server" value=""></Field>
+	</OBJECT>
+</OBJECT>
+
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __start__
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] new entry is : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item not found
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] insert new entry - ok
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Insert] __end__ Total: 0 milliseconds.
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewImpersonateProcess] __end__ Total: 2558 milliseconds.
+[ 2916 3768][30 Oct 13:46:40][DAAH] [DEBUG] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  runCommandInNewImpersonateProcess done successfully
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)]  sync flow -> about to set event
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __start__
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] m_syncEvent: 000004B8
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::setSynchEvent] __end__ Total: 0 milliseconds.
+[ 2916 3768][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exe_command_thread_func(s)] __end__ Total: 2558 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - WaitForSingleObject returned
+[ 2916 2984][30 Oct 13:46:40][proxysupp] ProxyThreadSharedData::remove: thread 3768 is removed retured 1
+[ 2916 2984][30 Oct 13:46:40][DAAH] [DEBUG] [DesktopApplicationApiHandler::runCommandInNewThread]  sync flow - information was successfully collected before timeout reached
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] m_syncEvent: 000004B8
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::closeSynchEvent] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [ThreadArgs::~ThreadArgs] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::runCommandInNewThread] __end__ Total: 2558 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::_exeCommandLine] __end__ Total: 2558 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] command line is: D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] look for : D:\VPN\CHECK_POINT_VPN_CLIENT\DAAW.exe  getProxyAtt
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] item found
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiCache::Find] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __start__
+[ 2916 2984][30 Oct 13:46:40][XmlWrapper] XmlDocument::LoadString: inside
+[ 2916 2984][30 Oct 13:46:40][XmlWrapper] XmlDocument::LoadString: using our ConvertStringToBSTR function
+[ 2916 2984][30 Oct 13:46:40][XmlWrapper] ConvertStringToBSTR: inside
+[ 2916 2984][30 Oct 13:46:40][XmlWrapper] XmlDocument::XmlDocument: inside
+[ 2916 2984][30 Oct 13:46:40][XmlWrapper] XmlDocument::Root: inside
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] deserialize succeeded
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] res->getReturnCode() = 0 res->getErrorDescription() = success
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::responseStringToXML(s)] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] got xml from string. the XML response is valid (no error) response
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] final retCode is: DAAH_sucess_synch_non_cached_response(1)
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::finalizeSync] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::exeCommandLine] __end__ Total: 2558 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::GetProxyAttributesQuery] __end__ Total: 2558 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [DesktopApplicationApiHandler::isError] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][proxysupp] GetProxyAttributes: succeeded to GetProxyAttributesQuery -> procceed
+[ 2916 2984][30 Oct 13:46:40][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __start__
+[ 2916 2984][30 Oct 13:46:40][proxy-state] [COVERAGE] [IEProxyState::~IEProxyState] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __start__
+[ 2916 2984][30 Oct 13:46:40][DAAH] [COVERAGE] [RequestParams::~RequestParams (do nothing)] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:40][proxysupp] DownloadAutoDetectPACFile: Starting...
+[ 2916 2984][30 Oct 13:46:40][] The PRNG was not initialized properly
+[ 2916 2984][30 Oct 13:46:43][MessageLoop] MessageLoop::ExecuteRoutineInNewThread: thread created successfully
+[ 2916 2984][30 Oct 13:46:43][proxysupp] DownloadAutoDetectPACFile: downloading started
+[ 2916 2984][30 Oct 13:46:43][proxysupp] LoadCurrentProxyConfiguration: Completed with status = true.
+[ 2916 2984][30 Oct 13:46:43][proxy_wrapper] [COVERAGE] [ProxyWrapper::DoDetectProxyIfNeeded(s)] __end__ Total: 5211 milliseconds.
+[ 2916 3864][30 Oct 13:46:43][proxysupp] AsynchDownloadAutoConfigThread: Starting with opaque (4316238) ...
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: entering...
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ccc_port return value 443, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] product_name return value TRAC, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ccc_idle_timeout return value 30000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] automatic_mep_topology return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: ERROR: no primary gw found
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: gw ip address is 119.226.62.122
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo:initialize: entered!043685E0
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo::read_gray_list_timeout: gray list timeout  in Minutes: 120.
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo::read_gray_list: failed
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] gw_hostname return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] hello_protocol_ver return value 100, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitCCC: First call to Init. Creating the CCC instance
+[ 2916 2984][30 Oct 13:46:43][talkhttps] ATalkHttps::ATalkHttps will not reuse
+[ 2916 2984][30 Oct 13:46:43][talkhttps] ATalkHttps::resetHttpVersion: set default version of HTTP to 1.0
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] inside talkccc::talkccc
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] inside talkccc:Init
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] talkccc::SetGatewayInfo: called 
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] GICopyHelper: start
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo:initialize: entered!04368F50
+[ 2916 2984][30 Oct 13:46:43][talkssl] gwinfo:initialize: hostname=119.226.62.122,gw_ip=77e23e7a, gw_port=443
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] GICopyHelper: end
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] GICopyHelper: start
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] GICopyHelper: NULL source
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] talkccc::SetGatewayInfo: finished
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] talkccc::talkccc ssl client cert will not be used
+[ 2916 2984][30 Oct 13:46:43][talkhttps] SetUseClientCert: false
+[ 2916 2984][30 Oct 13:46:43][talkssl] talkssl::talkssl(): entered with chunk=65536, opaque=4359060, link_established=4df852, link_failure=4df860, packet_receive=4df872, verify_gw=4df888
+[ 2916 2984][30 Oct 13:46:43][talkssl] talkssl::set_sslalg:  setting ssl alg to 1
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] hotspot_detection_enabled return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TalkCCC] talkccc::set_IdleTimeout: inside
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] def_gw_ipaddr return value 119.226.62.122, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TrConnManager::InitLocationAwareness: portal_addr = 119.226.62.122
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] location_awareness_enabled return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][location_awareness] LocationAwareness::SetAwarenessParams: Setting Location Awareness parameters
+[ 2916 2984][30 Oct 13:46:43][location_awareness] LocationAwareness::SetAwarenessParams: checkLocation = false
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ignore_sdl_in_encdomain return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::InitLocationAwareness: unregister for network notification - no use to update sdl on client location
+[ 2916 2984][30 Oct 13:46:43][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: m_callback_vec.size=0
+[ 2916 2984][30 Oct 13:46:43][location_awareness] LocationAwareness::UnregisterNetworkNotificationCallback: callback not found, do nothing
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: calling reconf for logs upload
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] fw_log_upload_enable return value true, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_FIREWALL] UploadLogsComponent::reconf: active site has log upload enabled, init  m_logConf
+[ 2916 2984][30 Oct 13:46:43][TR_FIREWALL] UploadLogsComponent::reconf: logFolder:D:\VPN\CHECK_POINT_VPN_CLIENT\,  gwname:invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] next_log_file_to_upload_index return value -1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] number_of_tracker_log_files_limit return value 8, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] tracker_log_file_size_limit return value 250000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] remove_log_files_after_sending return value true, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] write_pkt_alert_log_in_chunks return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] ccc_timeout return value 60000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x009EB8D8): __start__
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogConf::LogConf (Ctor)] (0x009EB8D8): __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::StopLogUploading] __start__
+[ 2916 2984][30 Oct 13:46:43][rais] [WARNING] [LogDistributer::StopLogUploading] stop without start uploading
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::StopLogUploading] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __start__
+[ 2916 2984][30 Oct 13:46:43][rais] [INFO] [LogDistributer::ConfigurationHasChanged] new conf gw is invpn.thegoldensource.com, old conf gw is invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:43][rais] [INFO] [LogFiler::Instance(s)] create logFiler 
+[ 2916 2984][30 Oct 13:46:43][rais] [ERROR] [LogFiler::FlushBufferToFile] longConf is NULL
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x009EB998): __start__
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogConf::LogConf (Copy Ctor)] (0x009EB998): __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __start__
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::RemoveRedundantCompressedLogFiles] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:43][rais] [COVERAGE] [LogDistributer::ConfigurationHasChanged] __end__ Total: 0 milliseconds.
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: checking SCV hash and file.
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: vista or above detected, set bConsiderServiceJustStarted=true
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] about to check if the  scv hash is empty...
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] scv hash is empty - probably right after installation -> do not load scv
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] Init: __end__ 13:46:43.87. Total time - 5288 milliseconds
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TR_CL_SETTING_MGR::TrClSettingManager::Init: called
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] client_policies return value trac_client_1&#range&#mep&#desktop&#user_groups&#scv&#dns&#, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: gateway = gscmumcpfw-Cluster
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: initializing policies for:
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: gw = invpn.thegoldensource.com
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: gateway = NULL gateway
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] Scope::debug: user = USER
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy trac_client_1
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] trac_client_1 return value 1dc76fee92be7cdce378be57573a9b1c, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy range
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] range return value e535e952cb8ecd75266289c4d7467b39, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy mep
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy desktop
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] desktop return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy user_groups
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] user_groups return value 5c7ee862f6ad870cbd12db3e9cff0527, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy scv
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] scv return value , because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_CL_SETTING_MGR] TrClSettingManager::Init: adding policy dns
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] dns return value cc16b1ade1cab7f72e2df8f85f54d427, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] policy_version return value 58667566, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2916 2984][30 Oct 13:46:43][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2916 2984][30 Oct 13:46:43][] cpii_init: LoadLibrary('Ws2_32.dll') returned 75530000
+
+[ 2916 2984][30 Oct 13:46:43][] cpii_init: LoadLibrary('iphlpapi.dll') returned 74ac0000
+
+[ 2916 2984][30 Oct 13:46:43][om] om_mngr_recovery_cleanup: called
+[ 2916 2984][30 Oct 13:46:43][om] om_utils_clean_obsolete_dns_suffixes: called
+[ 2916 2984][30 Oct 13:46:43][om] om_utils_open_product_ver_key : failed to open product key: The system cannot find the file specified.
+[ 2916 2984][30 Oct 13:46:43][om] om_utils_open_registry_space : failed to open product key
+[ 2916 2984][30 Oct 13:46:43][om] om_utils_clean_obsolete_dns_suffixes: failed open vna registry space
+[ 2916 2984][30 Oct 13:46:43][om] om_mngr_init: used for product 2
+[ 2916 2984][30 Oct 13:46:43][om] om_mngr_init: completed per product initialization
+[ 2916 2984][30 Oct 13:46:43][vna] vna_cfgmgr_init: interface configuration timeout set to 40 seconds
+[ 2916 2984][30 Oct 13:46:43][vna] vna_cfgmgr_init: poll for interface change (yes every 500 msec)
+[ 2916 2984][30 Oct 13:46:43][vna] vna_cfgmgr_init: kernel traps - yes
+[ 2916 2984][30 Oct 13:46:43][vna] vna_cfgmgr_init: for product Apollo
+[ 2916 2984][30 Oct 13:46:43][] _cpNTlock: created and obtained mutex Devicevna_ap
+[ 2916 2984][30 Oct 13:46:43][] fwkmsg_init: initialized on fd 1328 buffer size 0 bytes
+[ 2916 2984][30 Oct 13:46:43][vna] wmi_utils_initial_init: Initializing COM
+[ 2916 2984][30 Oct 13:46:43][vna] vna_cfgmgr_init: completed ok 
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <         0.0.0.0,          0.0.0.0,          0.0.0.0, 0x0000000b, 20>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <       127.0.0.0,        127.0.0.0,        127.0.0.0, 0x00000001, 306>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <       127.0.0.1,        127.0.0.1,        127.0.0.1, 0x00000001, 306>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load < 127.255.255.255,  127.255.255.255,  127.255.255.255, 0x00000001, 306>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <     192.168.1.0,      192.168.1.0,      192.168.1.0, 0x0000000b, 276>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <     192.168.1.7,      192.168.1.7,      192.168.1.7, 0x0000000b, 276>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <   192.168.1.255,    192.168.1.255,    192.168.1.255, 0x0000000b, 276>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x00000001, 306>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load <       224.0.0.0,        224.0.0.0,        224.0.0.0, 0x0000000b, 276>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x00000001, 306>
+[ 2916 2984][30 Oct 13:46:43][vna_rtm] Load < 255.255.255.255,  255.255.255.255,  255.255.255.255, 0x0000000b, 276>
+[ 2916 2984][30 Oct 13:46:43][om] om_mngr_init: completed ok 
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2916 2984][30 Oct 13:46:43][TR_CPLOGON] LoadDLL: Not in scuiapi mode not loading LogonAgentAPI.dll
+[ 2916 2984][30 Oct 13:46:43][TR_CONN_MANAGER] TrConnManager::GetSCUIAPIMode: mbSCUIAPIMode is 0
+[ 2916 2984][30 Oct 13:46:43][TR_OVERSITE] TR_OVERSITE::Create: TrOversite inited OK
+[ 2916 2984][30 Oct 13:46:43][CONFIG_MANAGER] debug_mode_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

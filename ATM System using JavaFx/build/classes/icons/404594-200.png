@@ -1,0 +1,65 @@
+ONN_MANAGER::Init: active site entry resides in the 1 position
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] mep return value 67b8cea8d63c44e922fc10e2f1cd943f, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] UpdateTopologyGws: topology changed. refreshing gw list
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] UpdateTopologyGws: gw initial gw was removed from the topology
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] UpdateTopologyGws: deleting gw initial gw
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] UpdateTopologyGws: adding new gw 2 - gscmumcpfw-Cluster
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] num_of_encdomains return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] gw_encdom_id return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw gscmumcpfw-Cluster ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::TrMepResolver::Ctor: entering...
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] neo_always_connected return value false, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] gw_bc_mode return value false, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] display_name return value invpn.thegoldensource.com, because it is User config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] neo_always_connected_retry return value 1, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] roaming_timeout_interval return value 1000, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] neo_implicit_disconnect return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] neo_disconnect_when_idle return value false, because it is Default variable. Scope: site invpn.thegoldensource.com, gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] tunnel_idleness_timeout return value 0, because it is Gateway config variable. Scope: site invpn.thegoldensource.com ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: Handle 1, adding gw invpn.thegoldensource.com
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] ConnUpdateStatusInRegistry: SCUIAPI mode is off. No need to publish state
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::TrConnManager::SetIsDisableSDLInEncDomain: entering...
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] sdl_enabled return value false, because it is User config variable. Scope: site NULL ,gw NULL ,user USER 
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: entering...
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: line read = <securitypolicy version="1" >
+
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute desktop not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute user_group not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute gw not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute connect_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_policy_mode not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute disconnect_in_house_enable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute policy_type not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute drop_clear_to_enc not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_disable not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute allow_ipv6 not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute hotspot_ports not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::ReadValidationData: attribute display_disable_warning_msg not found in C:\Windows\system32\drivers\DisconnectedPolicy.xml
+[ 2852 376][30 Oct 13:42:34][TR_FIREWALL] CFirewallWrapper::EnforcePolicyOnStartup: gwname or policy type does not exist, not enforcing firewall policy
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::isUserLoggedOn: Entering...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: start...
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: Running on an NT system
+[ 2852 376][30 Oct 13:42:34][RunAs] SCRunAsInit: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Opening shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Duplicating shell process token
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Creating environblock
+[ 2852 376][30 Oct 13:42:34][RunAs] GetSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Locating PID for explorer.exe
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Located PID 1792 for process
+[ 2852 376][30 Oct 13:42:34][RunAs] GetProcessIdFromName: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Current shell located as explorer.exe, process 1792
+[ 2852 376][30 Oct 13:42:34][RunAs] GetCurrentShellProcessId: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] FreeSecurityContextInformation: Ended
+[ 2852 376][30 Oct 13:42:34][RunAs] SCGetCurrentShell: Ended
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] isUserLoggedOn: user is logged in, shellId=1792, shellName=explorer.exe 
+[ 2852 376][30 Oct 13:42:34][TR_CONN_MANAGER] TR_CONN_MANAGER::Init: user is logged in -> do ConnRestoreProxyReplacement()
+[ 2852 376][30 Oct 13:42:34][CONFIG_MANAGER] active_site return value invpn.thegoldensource.com, because it is User config variable. Scope: site NULL ,g

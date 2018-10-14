@@ -1,0 +1,34 @@
+6 2328][30 Oct 13:28:11][CONFIG_MANAGER] Saveing to trac.conf.lastgood
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::saveLastGoodConfiguration(): __end__ 13:28:11.269. Total time - 16 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::loadGwParams(): __end__ 13:28:11.269. Total time - 2824 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __start__ 13:28:11.269
+[ 2876 2328][30 Oct 13:28:11][FileManager] FileManager::openFile: file does not exist
+[ 2876 2328][30 Oct 13:28:11][FileManager] FileManager::readFile: error occured while opening the file
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::loadPtParams(): __end__ 13:28:11.269. Total time - 0 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __start__ 13:28:11.269
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::loadCpParms(): __end__ 13:28:11.269. Total time - 0 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::load(): __end__ 13:28:11.269. Total time - 3042 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::init(): __end__ 13:28:11.269. Total time - 3042 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::ConfigurationManager: __end__ 13:28:11.269. Total time - 3042 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] ConfigurationManager::create: __end__ 13:28:11.269. Total time - 3042 milliseconds
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:11][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] is_abra return value false, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:11][TR_FLOW] TR_FLOW::IsAMSSLTunnelConfigured: No is_abra, set to default: no abra
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] langpack_filename return value LangPack1.xml, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:11][TR_CONN_MANAGER] TrConnManager::ReadSCUIAPIMode: failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:11][CONFIG_MANAGER] language_index return value 0, because it is Default variable. Scope: site NULL, gw NULL ,user USER 
+[ 2876 2328][30 Oct 13:28:13][TR_OVERSITE] TR_OVERSITE::Create: Successfully loaded localization engine.
+[ 2876 2328][30 Oct 13:28:13][MessageLoop] MessageLoop::MessageLoop::Create: Message Loop created
+[ 2876 2328][30 Oct 13:28:13][proxy_wrapper] ProxyWrapper::Create: Starting ...
+[ 2876 2328][30 Oct 13:28:13][TR_OVERSITE] TR_OVERSITE::Create: about to set proxy connections start / end CB
+[ 2876 2328][30 Oct 13:28:13][proxy_authentication] ProxyWrapper::setCloseProxyConnectionFwCb: done - 4427261
+[ 2876 2328][30 Oct 13:28:13][proxy_authentication] ProxyWrapper::setStartProxyConnectionFwCb: done - 4427232
+[ 2876 2328][30 Oct 13:28:13][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::Init: entering...
+[ 2876 2328][30 Oct 13:28:13][slim_utils] RaisDbGetValue: Trying to open registry: Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:13][slim_utils] RaisDbGetValue: Successfully opened key Software\CheckPoint\TRAC
+[ 2876 2328][30 Oct 13:28:13][slim_utils] RaisDbGetValue: Successfully read (REG_SZ) key client_sub_type with value EndpointSecurity
+[ 2876 2328][30 Oct 13:28:13][TR_FEATURE_MANAGER] TR_FEATURE_MANAGER::TrFeatureManager::isOfficeModeIsDisabledByUser: entering...
+[ 2876 2328][30 Oct 13:28:13][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: failed to read mode from registry
+[ 2876 2328][30 Oct 13:28:13][ICS] TrFeatureManager::isOfficeModeIsDisabledByUser: OM is not disabled in registry -> return false
+[ 2876 2328][30 Oct 13:28:13][TR_FEATURE_MANAGER] TrFeatureManager::Init: Office mode is NOT disabled by user -> enable ENDPOINT_SECURIT
